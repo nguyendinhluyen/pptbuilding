@@ -1,0 +1,45 @@
+RewriteEngine on
+Options +FollowSymLinks
+RewriteCond %{REQUEST_FILENAME} -d [OR]
+RewriteCond %{REQUEST_FILENAME} -s
+
+#non-www
+RewriteCond %{HTTP_HOST} ^www.(.+)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteRule ^$ home/index.php?show=home [L]
+
+# Doi song pets
+RewriteRule ^doi-song-pets/([a-zA-Z0-9-]*).htm$ home/index.php?show=info_detail_libary&news_key=$1&cate=doisongpets [L]
+
+# Doi song pets, navigation
+RewriteRule ^doi-song-pets$ home/index.php?show=info&page=1 [L]
+RewriteRule ^doi-song-pets/trang-([0-9]*)$ home/index.php?show=info&page=$1 [L]
+
+# Choose parent category such as category dogs and cat category, navigation
+RewriteRule ^doi-song-pets/([a-zA-Z0-9-]*)/$ home/index.php?show=info&page=1&choose=$1 [L]
+RewriteRule ^doi-song-pets/([a-zA-Z0-9-]*)/trang-([0-9]*)$ home/index.php?show=info&choose=$1&page=$2 [L]
+
+# Choose children category, navigation
+RewriteRule ^doi-song-pets/([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*)/$ home/index.php?show=info&choose1=$1&choose2=$2 [L]
+RewriteRule ^doi-song-pets/([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*)/trang-([0-9]*)$ home/index.php?show=info&choose1=$1&choose2=$2&page=$3 [L]
+
+# Contact 
+RewriteRule ^lien-he$ home/index.php?show=contact [L]
+
+#gioi thieu
+RewriteRule ^gioi-thieu$ home/index.php?show=introduce [L]
+RewriteRule ^gioi-thieu/tat-ca-thuong-hieu.htm$ home/index.php?show=all_brand_name [L]
+RewriteRule ^gioi-thieu/tat-ca-thuong-hieu/trang-([0-9]*)$ home/index.php?show=all_brand_name&trang=$1 [L]
+RewriteRule ^gioi-thieu/([a-zA-Z0-9-]*).htm$ home/index.php?show=introduce&news_key=$1 [L]
+
+#cong tac vien
+RewriteRule ^cong-tac-vien/([0-9]*).html/page=([0-9]*)$ home/index.php?show=user_admin_info&idadmin=$1&page=$2 [L]
+
+# List products by category
+RewriteRule ^([a-zA-Z0-9-]*)/$ home/index.php?show=product&category_key=$1 [L]
+RewriteRule ^([a-zA-Z0-9-]*)/trang-([0-9]*)$ home/index.php?show=product&category_key=$1&trang=$2 [L]
+
+#Error 404
+RewriteRule ^404$ home/index.php?show=404 [L]
+ErrorDocument 404 http://pptbuilding.vn/404
