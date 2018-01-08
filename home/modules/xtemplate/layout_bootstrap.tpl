@@ -54,9 +54,8 @@
                                 <li><a>VP Trần Thiện Chánh Quận 10</a></li>
                             </ul>
                         </li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="">Tin tức</a></li>
+                        <li><a href="">Liên hệ</a></li>                        
                     </ul>
                 </div>
             </nav>

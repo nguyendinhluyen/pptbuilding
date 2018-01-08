@@ -174,7 +174,9 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   font-size:0.7rem;
   margin:0 0.625rem;
 }
-.top-nav .active-item a {background:none repeat scroll 0 0 rgba(153, 153, 153, 0.25);}
+.top-nav .active-item a {
+    /*background:none repeat scroll 0 0 rgba(153, 153, 153, 0.25);*/
+}
 .aside-nav > ul > li.active-item > a:link,.aside-nav > ul > li.active-item > a:visited {
   background:none repeat scroll 0 0 rgba(153, 153, 153, 0.25);
   color:#fff;
