@@ -1,5 +1,5 @@
 <!-- Section 1 -->
-<section class="full-width section-small-padding background-white text-center">
+<section class="section full-width section-small-padding background-white text-center">
     <div class="s-12">
         <div class="margin">
             <div class="s-12 m-12 l-4 margin-m-bottom">
@@ -40,54 +40,57 @@
 </section>
 
 <!-- Section 2 -->
-<section class="full-width margin-top-60">
+<section class="section full-width">
     <div class="s-12 m-12 l-6">
         <img class="borderimage" src="{linkS}eleganter/img/pptbenefit.jpg" alt="tiện ích pptbuilding">
     </div>
     <div class="s-12 m-12 l-6">
         <div class="line">
             <div class="float-left margin-left-10">
-                <img class="image-width-40" src="{linkS}eleganter/img/benefiticon.png" alt="tiện ích pptbuilding">
+                <img class="image-width-40 hidden-xs hidden-sm" src="{linkS}eleganter/img/benefiticon.png" alt="tiện ích pptbuilding">
             </div>
             <div class="margin-left-10 margin-bottom-30">
-                <h3 class="text-size-22 margin-bottom-20 pptcolor margin-left-40">
+                <h3 class="text-size-22 margin-bottom-20 pptcolor margin-left-40 hidden-xs hidden-sm">
                     Tiện ích miễn phí khi đến với PPTBUILDING.vn</h3>
-                <p class="text-dark text-size-16 line-height-2">
+                <div class="text-size-22 margin-bottom-20 pptcolor hidden-md hidden-lg margin-top-40">
+                    Tiện ích miễn phí khi đến với PPTBUILDING.vn</div>
+                <div class="text-dark text-size-16 line-height-2">
                     - Địa chỉ đăng ký kinh doanh<br>
                     - Niêm yết bảng tên công ty trong tòa nhà<br>
                     - Sảnh tiếp khách, khu vực quầy pantry phục vụ khách ngồi chờ<br>
                     - Tiếp nhận bưu phẩm theo yêu cầu<br>
                     - Phòng hợp tiện nghi<br>
-                    - Lễ tân chuyên nghiệp<br>
-                    - Trà nước khu lễ tân và phòng họp<br>
+                    - Nhân viên chuyên nghiệp<br>
+                    - Trà nước khu nhân viên và phòng họp<br>
                     - Internet, Wifi tốc độc cao<br>
                     - Vệ sinh văn phòng<br>
                     - Thiết bị: máy chiếu, máy in – photocopy A3, máy nóng lạnh, tủ lạnh<br>
-                    - Hỗ trợ thủ tục đăng ký kinh doanh và tư vấn thuế
-                </p>
+                    - Hỗ trợ thủ tục đăng ký kinh doanh và tư vấn thuế                                      
+                </div>
             </div>
         </div>
     </div>
 </section>
 
 <!-- Section 3 -->
-<section class="section-top-padding full-width">
-    <h2 class="text-size-50 text-center pptcolor">Đội Ngũ Chuyên Nghiệp</h2>
+<section class="section full-width">
+    <h2 class="text-size-50 text-center pptcolor hidden-xs hidden-sm">Đội Ngũ Chuyên Nghiệp</h2>
+    <div class="text-size-50 text-center pptcolor hidden-md hidden-lg">Đội Ngũ Chuyên Nghiệp</div>
     <hr class="break-small background-primary break-center">
     <div class="tabs background-primary-hightlight">
         <div class="tab-item tab-active">
-            <a class="tab-label active-btn text-size-18">Lễ tân chuyên nghiệp</a>
+            <a class="tab-label active-btn text-size-18">Nhân viên chuyên nghiệp</a>
             <div class="tab-content lightbox-gallery">
                 <div class="s-12 m-6 l-3">
                     <a class="image-with-hover-overlay image-hover-zoom" href="{linkS}eleganter/img/portfolio/staff_02.jpg" target="_blank">
                         <div class="image-hover-overlay background-primary">
                             <div class="image-hover-overlay-content text-center padding-2x">
                                 <h2 class="text-thin text-size-16">Phục vụ chuyên nghiệp</h2>
-                                <p class="text-size-12 line-height-1-5">Lễ Tân được đào tạo bài bản giúp bạn đón tiếp đối tác, khách hàng.
+                                <p class="text-size-12 line-height-1-5">Nhân viên được đào tạo bài bản giúp bạn đón tiếp đối tác, khách hàng.
                                     Thay mặt doanh nghiệp bạn tiếp nhận bưu phẩm, thư từ, nghe điện thoại, đón tiếp cơ quan nhà nước.</p>
                             </div>
                         </div>
-                        <img src="{linkS}eleganter/img/portfolio/staff_02.jpg" alt="lễ tân thứ nhất" title="Lễ tân" />
+                        <img src="{linkS}eleganter/img/portfolio/staff_02.jpg" alt="nhân viên thứ nhất" title="nhân viên" />
                     </a>
                 </div>
                 <div class="s-12 m-6 l-3">
@@ -95,11 +98,11 @@
                         <div class="image-hover-overlay background-primary">
                             <div class="image-hover-overlay-content text-center padding-2x">
                                 <h2 class="text-thin text-size-16">Thái độ nghiêm túc</h2>
-                                <p class="text-size-12 line-height-1-5">PPTBuilding.vn với đội ngũ lễ tân được đào tạo chuyên nghiệp để
+                                <p class="text-size-12 line-height-1-5">PPTBuilding.vn với đội ngũ nhân viên được đào tạo chuyên nghiệp để
                                     thay mặt doanh nghiệp tiếp nhận bưu phẩm, thư từ, nghe điện thoại, đón tiếp cơ quan nhà nước.</p>
                             </div>
                         </div>
-                        <img src="{linkS}eleganter/img/portfolio/staff_03.jpg" alt="lễ tân thứ hai" title="Lễ tân" />
+                        <img src="{linkS}eleganter/img/portfolio/staff_03.jpg" alt="nhân viên thứ hai" title="nhân viên" />
                     </a>
                 </div>
                 <div class="s-12 m-6 l-3">
@@ -107,11 +110,11 @@
                         <div class="image-hover-overlay background-primary">
                             <div class="image-hover-overlay-content text-center padding-2x">
                                 <h2 class="text-thin text-size-16">Ân cần chu đáo</h2>
-                                <p class="text-size-12 line-height-1-5">Lễ Tân được đào tạo bài bản giúp bạn đón tiếp đối tác, khách hàng.
+                                <p class="text-size-12 line-height-1-5">Nhân viên được đào tạo bài bản giúp bạn đón tiếp đối tác, khách hàng.
                                     Thay mặt doanh nghiệp bạn tiếp nhận bưu phẩm, thư từ, nghe điện thoại, đón tiếp cơ quan nhà nước.</p>
                             </div>
                         </div>
-                        <img src="{linkS}eleganter/img/portfolio/staff_04.jpg" alt="lễ tân thứ ba" title="Lễ tân" />
+                        <img src="{linkS}eleganter/img/portfolio/staff_04.jpg" alt="nhân viên thứ ba" title="nhân viên" />
                     </a>
                 </div>
                 <div class="s-12 m-6 l-3">
@@ -119,57 +122,98 @@
                         <div class="image-hover-overlay background-primary">
                             <div class="image-hover-overlay-content text-center padding-2x">
                                 <h2 class="text-thin text-size-16">Trang phục nhã nhặn</h2>
-                                <p class="text-size-12 line-height-1-5">Trang phục lễ tân được thiết kế phù hợp với môi trường công sở
+                                <p class="text-size-12 line-height-1-5">Trang phục nhân viên được thiết kế phù hợp với môi trường công sở
                                     , nhã nhặn phù hợp cho đón tiếp khách hàng, tận tâm phục vụ doanh nghiệp bạn.</p>
                             </div>
                         </div>
-                        <img src="{linkS}eleganter/img/portfolio/staff_05.jpg" alt="lễ tân thứ tư" title="Lễ tân" />
+                        <img src="{linkS}eleganter/img/portfolio/staff_05.jpg" alt="nhân viên thứ tư" title="nhân viên" />
                     </a>
                 </div>
                 <div class="s-12 m-6 l-3">
                     <a class="image-with-hover-overlay image-hover-zoom" href="{linkS}eleganter/img/portfolio/staff_06.jpg" target="_blank">
                         <div class="image-hover-overlay background-primary">
                             <div class="image-hover-overlay-content text-center padding-2x">
-                                <div class="text-thin text-size-16">Lễ tân chuyên nghiệp</div>
+                                <div class="text-thin text-size-16">Nhân viên chuyên nghiệp</div>
                             </div>
                         </div>
-                        <img src="{linkS}eleganter/img/portfolio/staff_06.jpg" alt="lê tân thứ năm" title="Lễ tân" />
+                        <img src="{linkS}eleganter/img/portfolio/staff_06.jpg" alt="lê tân thứ năm" title="nhân viên" />
                     </a>
                 </div>
                 <div class="s-12 m-6 l-3">
                     <a class="image-with-hover-overlay image-hover-zoom" href="{linkS}eleganter/img/portfolio/staff_07.jpg" target="_blank">
                         <div class="image-hover-overlay background-primary">
                             <div class="image-hover-overlay-content text-center padding-2x">
-                                <div class="text-thin text-size-16">Lễ tân chuyên nghiệp</div>
+                                <div class="text-thin text-size-16">Nhân viên chuyên nghiệp</div>
                             </div>
                         </div>
-                        <img src="{linkS}eleganter/img/portfolio/staff_07.jpg" alt="lễ tân thứ sáu" title="Lễ tân" />
+                        <img src="{linkS}eleganter/img/portfolio/staff_07.jpg" alt="nhân viên thứ sáu" title="nhân viên" />
                     </a>
                 </div>
                 <div class="s-12 m-6 l-3">
                     <a class="image-with-hover-overlay image-hover-zoom" href="{linkS}eleganter/img/portfolio/staff_08.jpg" target="_blank">
                         <div class="image-hover-overlay background-primary">
                             <div class="image-hover-overlay-content text-center padding-2x">
-                                <div class="text-thin text-size-16">Lễ tân chuyên nghiệp</div>
+                                <div class="text-thin text-size-16">Nhân viên chuyên nghiệp</div>
                             </div>
                         </div>
-                        <img src="{linkS}eleganter/img/portfolio/staff_08.jpg" alt="lễ tân thứ bảy" title="Lễ tân" />
+                        <img src="{linkS}eleganter/img/portfolio/staff_08.jpg" alt="nhân viên thứ bảy" title="nhân viên" />
                     </a>
                 </div>
                 <div class="s-12 m-6 l-3">
                     <a class="image-with-hover-overlay image-hover-zoom" href="{linkS}eleganter/img/portfolio/staff_09.jpg" target="_blank">
                         <div class="image-hover-overlay background-primary">
                             <div class="image-hover-overlay-content text-center padding-2x">
-                                <div class="text-thin text-size-16">Lễ tân chuyên nghiệp</div>
+                                <div class="text-thin text-size-16">Nhân viên chuyên nghiệp</div>
                             </div>
                         </div>
-                        <img src="{linkS}eleganter/img/portfolio/staff_09.jpg" alt="lê tân thứ tám" title="Lễ tân" />
+                        <img src="{linkS}eleganter/img/portfolio/staff_09.jpg" alt="lê tân thứ tám" title="nhân viên" />
+                    </a>
+                </div>
+                                    
+                <div class="s-12 m-6 l-3">
+                    <a class="image-with-hover-overlay image-hover-zoom" href="{linkS}eleganter/img/portfolio/staff_10.jpg" target="_blank">
+                        <div class="image-hover-overlay background-primary">
+                            <div class="image-hover-overlay-content text-center padding-2x">
+                                <div class="text-thin text-size-16">Nhân viên chuyên nghiệp</div>
+                            </div>
+                        </div>
+                        <img src="{linkS}eleganter/img/portfolio/staff_10.jpg" alt="nhân viên thứ chín" title="nhân viên" />
+                    </a>
+                </div>
+                <div class="s-12 m-6 l-3">
+                    <a class="image-with-hover-overlay image-hover-zoom" href="{linkS}eleganter/img/portfolio/staff_11.jpg" target="_blank">
+                        <div class="image-hover-overlay background-primary">
+                            <div class="image-hover-overlay-content text-center padding-2x">
+                                <div class="text-thin text-size-16">Nhân viên chuyên nghiệp</div>
+                            </div>
+                        </div>
+                        <img src="{linkS}eleganter/img/portfolio/staff_11.jpg" alt="nhân viên thứ mười" title="nhân viên" />
+                    </a>
+                </div>
+                <div class="s-12 m-6 l-3">
+                    <a class="image-with-hover-overlay image-hover-zoom" href="{linkS}eleganter/img/portfolio/staff_12.jpg" target="_blank">
+                        <div class="image-hover-overlay background-primary">
+                            <div class="image-hover-overlay-content text-center padding-2x">
+                                <div class="text-thin text-size-16">Nhân viên chuyên nghiệp</div>
+                            </div>
+                        </div>
+                        <img src="{linkS}eleganter/img/portfolio/staff_12.jpg" alt="lê tân thứ mười một" title="nhân viên" />
+                    </a>
+                </div>
+                <div class="s-12 m-6 l-3">
+                    <a class="image-with-hover-overlay image-hover-zoom" href="{linkS}eleganter/img/portfolio/staff_13.jpg" target="_blank">
+                        <div class="image-hover-overlay background-primary">
+                            <div class="image-hover-overlay-content text-center padding-2x">
+                                <div class="text-thin text-size-16">Nhân viên chuyên nghiệp</div>
+                            </div>
+                        </div>
+                        <img src="{linkS}eleganter/img/portfolio/staff_13.jpg" alt="lê tân thứ mười hai" title="nhân viên" />
                     </a>
                 </div>
             </div>
         </div>
         <div class="tab-item">
-            <a class="tab-label text-size-18">Cơ sở vật chất</a>
+            <a class="tab-label text-size-18">Cơ sở vật chất hiện đại</a>
             <div class="tab-content lightbox-gallery">
                 <div class="s-12 m-6 l-3">
                     <a class="image-with-hover-overlay image-hover-zoom" href="{linkS}eleganter/img/portfolio/infrastructure_01.jpg" target="_blank">
@@ -250,94 +294,9 @@
                         </div>
                         <img src="{linkS}eleganter/img/portfolio/infrastructure_08.jpg" alt="cơ sở vật chất thứ tám" title="Cơ sở vật chất" />
                     </a>
-                </div>
+                </div>                                                    
             </div>
-        </div>
-        <div class="tab-item">
-            <a class="tab-label text-size-18">Tiện ích thiết bị</a>
-            <div class="tab-content lightbox-gallery">
-                <div class="s-12 m-6 l-3">
-                    <a class="image-with-hover-overlay image-hover-zoom" href="{linkS}eleganter/img/portfolio/portfolio-03.jpg" target="_blank">
-                        <div class="image-hover-overlay background-primary">
-                            <div class="image-hover-overlay-content text-center padding-2x">
-                                <div class="text-thin">Tiện ích thiết bị</div>
-                            </div>
-                        </div>
-                        <img src="{linkS}eleganter/img/portfolio/thumb-03.jpg" alt="" title="Portfolio Image 9" />
-                    </a>
-                </div>
-                <div class="s-12 m-6 l-3">
-                    <a class="image-with-hover-overlay image-hover-zoom" href="{linkS}eleganter/img/portfolio/portfolio-01.jpg" target="_blank">
-                        <div class="image-hover-overlay background-primary">
-                            <div class="image-hover-overlay-content text-center padding-2x">
-                                <div class="text-thin">Tiện ích thiết bị</div>
-                            </div>
-                        </div>
-                        <img src="{linkS}eleganter/img/portfolio/thumb-01.jpg" alt="" title="Portfolio Image 10" />
-                    </a>
-                </div>
-                <div class="s-12 m-6 l-3">
-                    <a class="image-with-hover-overlay image-hover-zoom" href="{linkS}eleganter/img/portfolio/thumb-09.jpg" target="_blank">
-                        <div class="image-hover-overlay background-primary">
-                            <div class="image-hover-overlay-content text-center padding-2x">
-                                <div class="text-thin">Tiện ích thiết bị</div>
-                            </div>
-                        </div>
-                        <img src="{linkS}eleganter/img/portfolio/thumb-09.jpg" alt="" title="Portfolio Image 11" />
-                    </a>
-                </div>
-                <div class="s-12 m-6 l-3">
-                    <a class="image-with-hover-overlay image-hover-zoom" href="{linkS}eleganter/img/portfolio/portfolio-14.jpg" target="_blank">
-                        <div class="image-hover-overlay background-primary">
-                            <div class="image-hover-overlay-content text-center padding-2x">
-                                <div class="text-thin">Tiện ích thiết bị</div>
-                            </div>
-                        </div>
-                        <img src="{linkS}eleganter/img/portfolio/thumb-14.jpg" alt="" title="Portfolio Image 12" />
-                    </a>
-                </div>
-                <div class="s-12 m-6 l-3">
-                    <a class="image-with-hover-overlay image-hover-zoom" href="{linkS}eleganter/img/portfolio/portfolio-07.jpg" target="_blank">
-                        <div class="image-hover-overlay background-primary">
-                            <div class="image-hover-overlay-content text-center padding-2x">
-                                <div class="text-thin">Tiện ích thiết bị</div>
-                            </div>
-                        </div>
-                        <img src="{linkS}eleganter/img/portfolio/thumb-07.jpg" alt="" title="Portfolio Image 13" />
-                    </a>
-                </div>
-                <div class="s-12 m-6 l-3">
-                    <a class="image-with-hover-overlay image-hover-zoom" href="{linkS}eleganter/img/portfolio/portfolio-13.jpg" target="_blank">
-                        <div class="image-hover-overlay background-primary">
-                            <div class="image-hover-overlay-content text-center padding-2x">
-                                <div class="text-thin">Tiện ích thiết bị</div>
-                            </div>
-                        </div>
-                        <img src="{linkS}eleganter/img/portfolio/thumb-13.jpg" alt="" title="Portfolio Image 14" />
-                    </a>
-                </div>
-                <div class="s-12 m-6 l-3">
-                    <a class="image-with-hover-overlay image-hover-zoom" href="{linkS}eleganter/img/portfolio/thumb-11.jpg" target="_blank">
-                        <div class="image-hover-overlay background-primary">
-                            <div class="image-hover-overlay-content text-center padding-2x">
-                                <div class="text-thin">Tiện ích thiết bị</div>
-                            </div>
-                        </div>
-                        <img src="{linkS}eleganter/img/portfolio/thumb-11.jpg" alt="" title="Portfolio Image 15" />
-                    </a>
-                </div>
-                <div class="s-12 m-6 l-3">
-                    <a class="image-with-hover-overlay image-hover-zoom" href="{linkS}eleganter/img/portfolio/portfolio-04.jpg" target="_blank">
-                        <div class="image-hover-overlay background-primary">
-                            <div class="image-hover-overlay-content text-center padding-2x">
-                                <div class="text-thin">Tiện ích thiết bị</div>
-                            </div>
-                        </div>
-                        <img src="{linkS}eleganter/img/portfolio/thumb-04.jpg" alt="" title="Portfolio Image 16" />
-                    </a>
-                </div>
-            </div>
-        </div>
+        </div>        
     </div>
 </section>
 
@@ -356,7 +315,7 @@
             </div>
             <div class="item">
                 <div class="s-12 m-12 l-12 center text-center">
-                    <img class="image-testimonial-small height_50_100" src="{linkS}eleganter/img/portfolio/testimonials_02.png" alt="cảm nhân khách hàng">
+                    <img class="image-testimonial-small height_150" src="{linkS}eleganter/img/portfolio/testimonials_02.png" alt="cảm nhân khách hàng">
                     <p class="h1 margin-bottom text-size-20">Chúng tôi không phải lo bất cứ vấn đề gì về văn phòng, hoàn toàn an tâm để tập trung hết tâm trí vào việc kinh doanh!</p>
                     <p class="h1 text-size-16">Marketing / Seatechs / Corp</p>
                 </div>

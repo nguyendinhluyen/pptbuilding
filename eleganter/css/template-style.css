@@ -266,7 +266,7 @@ hr.break-small {
     width: 60px;
 }
 hr.break-small.break-center {
-    margin: 20px auto 35px;
+    margin: 20px auto 15px;
 }
 hr.break-small.break-double {
     height: 0;
@@ -639,7 +639,7 @@ aside.aside-left {
 
 /* Containers */
 .section  {
-    padding: 6rem 1.25rem;
+    padding: 4rem 1.25rem;
 }
 .section-small-padding  {
     padding: 2.5rem 1.25rem;
@@ -1241,7 +1241,7 @@ p.form-success {
     }
     .carousel-main .owl-item img, .carousel-main .owl-item video {
         max-width: 250%;
-        width:auto;
+        /*width:auto;*/
     }
     .margin-m-top {
         margin-top: 1.25rem !important;
@@ -2160,12 +2160,15 @@ video {
 .margin-bottom-0 {
     margin-bottom: 0px !important;
 }
-.height_50_100 {
-    height: 30% !important;
+.height_150 {
+    height: 150px !important;
 }
 .line-height-40 {
     line-height: 40px;
 }
 .width_100 {
     width: 100%
+}
+.padding-top-minus-20 {
+    padding-top: -20px;
 }

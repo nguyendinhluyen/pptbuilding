@@ -129,10 +129,10 @@ jQuery(document).ready(function($) {
     });
   });
   //Active item
-  var url = window.location.href;
-  $('a').filter(function() {
-    return this.href == url;
-  }).parent('li').addClass('active-item');
+  var url = window.location.href;  
+//    $('a').filter(function() {
+//    return this.href == url;
+//  }).parent('li').addClass('active-item');  
   var url = window.location.href;
   $('.aside-nav a').filter(function() {
     return this.href == url;

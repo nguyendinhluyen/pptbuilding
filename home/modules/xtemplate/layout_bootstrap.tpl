@@ -65,20 +65,20 @@
                 <div class="carousel-default owl-carousel carousel-main carousel-nav-white background-dark text-center">
                     <div class="item">
                         <div class="s-12">
-                            <img src="{linkS}eleganter/img/header.jpg" alt="">
+                            <img src="{linkS}eleganter/img/header.jpg" alt="hình danh mục">
                             <div class="carousel-content">
                                 <div class="content-center-vertical line">
                                     <div class="margin-top-bottom-80">
                                         <!-- Title -->
-                                        <h1 class="text-white margin-bottom-30 text-size-60 text-m-size-30 text-line-height-1">
-                                            <span style="color: #116333 !important; line-height: 80px">Sẻ Chia Tiện Ích <br>Kết Nối Thành Công</span>
+                                        <h1 class="text-white text-size-60 text-m-size-30">
+                                            <span style="color: #116333 !important;">Sẻ Chia Tiện Ích <br>Kết Nối Thành Công</span>
                                         </h1>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>                                            
             </header>
         </main>
         <!--End header-->
