@@ -142,7 +142,7 @@
                     <p class="text-size-12">Copyright 2018, PPT Building</p>
                 </div>
                 <div class="s-12 l-6">
-                    <a class="right text-size-12" href="http://smartvietsolution.com/" title="Smart Viet Solution">Design and coding<br> by SmartVietSolution</a>
+                    <a class="right text-size-12" href="http://smartvietsolution.com/" title="Smart Viet Solution">by SmartVietSolution</a>
                 </div>
             </section>
         </footer>
