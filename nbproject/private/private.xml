@@ -5,8 +5,8 @@
         <group>
             <file>file:/Applications/XAMPP/xamppfiles/htdocs/pptbuilding/eleganter/css/responsee.css</file>
             <file>file:/Applications/XAMPP/xamppfiles/htdocs/pptbuilding/home/modules/xtemplate/layout_bootstrap.tpl</file>
-            <file>file:/Applications/XAMPP/xamppfiles/htdocs/pptbuilding/.htaccess</file>
             <file>file:/Applications/XAMPP/xamppfiles/htdocs/pptbuilding/eleganter/js/responsee.js</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/pptbuilding/home/modules/xtemplate/home_bootstrap.tpl</file>
             <file>file:/Applications/XAMPP/xamppfiles/htdocs/pptbuilding/eleganter/css/template-style.css</file>
         </group>
     </open-files>

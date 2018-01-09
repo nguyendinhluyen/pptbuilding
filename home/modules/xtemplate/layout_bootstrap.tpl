@@ -71,7 +71,7 @@
                                     <div class="margin-top-bottom-80">
                                         <!-- Title -->
                                         <h1 class="text-white text-size-60 text-m-size-30">
-                                            <span style="color: #116333 !important;">Sẻ Chia Tiện Ích <br>Kết Nối Thành Công</span>
+                                            <span style="color: #bc624e !important;">Sẻ Chia Tiện Ích <br>Kết Nối Thành Công</span>
                                         </h1>
                                     </div>
                                 </div>
@@ -97,7 +97,7 @@
             <section class="background-dark full-width">
                 <!-- Map -->
                 <div class="s-12 m-12 l-6 margin-m-bottom-2x">
-                    <div class="s-12 grayscale center">
+                    <div class="s-12 center">
                         <img class="width_100" src="{linkS}eleganter/img/lien-he.jpg" alt="liên hệ">
                     </div>
                 </div>
@@ -138,10 +138,10 @@
             <hr class="break margin-top-bottom-0" style="border-color: rgba(0, 38, 51, 0.80);">
             <!-- Bottom Footer -->
             <section class="padding background-dark full-width">
-                <div class="s-12 l-6">
+                <div class="s-6 l-6">
                     <p class="text-size-12">Copyright 2018, PPT Building</p>
                 </div>
-                <div class="s-12 l-6">
+                <div class="s-6 l-6">
                     <a class="right text-size-12" href="http://smartvietsolution.com/" title="Smart Viet Solution">by SmartVietSolution</a>
                 </div>
             </section>

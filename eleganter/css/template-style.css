@@ -1932,7 +1932,7 @@ nav.fixed .logo-dark, .fixed nav .logo-dark {
 .top-nav li a {
     color: #116333;
     padding: 1.5rem;
-    opacity: 0.7;
+    opacity: 1;
     transition: all 0.20s linear 0s;
     -o-transition: all 0.20s linear 0s;
     -ms-transition: all 0.20s linear 0s;
