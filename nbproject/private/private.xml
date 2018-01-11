@@ -5,9 +5,15 @@
         <group>
             <file>file:/Applications/XAMPP/xamppfiles/htdocs/pptbuilding/eleganter/css/responsee.css</file>
             <file>file:/Applications/XAMPP/xamppfiles/htdocs/pptbuilding/home/modules/xtemplate/layout_bootstrap.tpl</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/pptbuilding/home/process/process_frame.php</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/pptbuilding/admincp_login/modules/com_admin/menu.tpl</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/pptbuilding/home/modules/xtemplate/category_help.tpl</file>
             <file>file:/Applications/XAMPP/xamppfiles/htdocs/pptbuilding/eleganter/js/responsee.js</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/pptbuilding/.htaccess</file>
             <file>file:/Applications/XAMPP/xamppfiles/htdocs/pptbuilding/home/modules/xtemplate/home_bootstrap.tpl</file>
-            <file>file:/Applications/XAMPP/xamppfiles/htdocs/pptbuilding/eleganter/css/template-style.css</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/pptbuilding/admincp_login/modules/index.php</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/pptbuilding/admincp_login/include/constant.php</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/pptbuilding/admincp_login/index.php</file>
         </group>
     </open-files>
 </project-private>
