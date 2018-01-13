@@ -1,27 +1,17 @@
-<!-- Thông tin webiste -->
 <div class="menu">
     <ul>
-        <li style = "display:block;"><a href = "./?show=admin_user_info" style="font-weight: bold">Thông tin cá nhân</a></li>
-        <div style = "display:block;" class = 'title_menu'>{information} website</div>
-        <li style = "display:block;"><a href = "./?show=report">Admin control panel</a></li>        
-        <li style = "display:block;"><a href = "./?show=com_control_user_account">Quản lý người dùng</a></li>
-        <li style = "display:block;"><a href = "./?show=visitor">Thống kê truy cập</a></li>
-        <li style = "display:block;"><a href = "./?show=who">Ai đang online</a></li>                        
-        <!--<li style = "display:none; {display_3}"><a href = "./?show=content">{information}</a></li>-->
-        <!--<li style = "display:none; {display_4}"><a href = "./?show=keywords">Quản lý từ khóa</a></li>-->        
-        <!--<li style = "display:none; {display_7}"><a href = "./?show=contact">Liên hệ</a></li>-->
+        <div style = "display:block;" class = 'title_menu'>Gửi báo giá</div>
+        <li style = "display:block;"><a href = "./?show=contact">Gửi báo giá</a></li>
     </ul>
 </div>
-<!-- End Thông tin webiste -->
-
 <!-- Tin tức -->
 <div class="menu">
     <ul>
-        <div style = "display:block;" class = 'title_menu'>Tin tức</div>
-        <li style = "display:block;"><a href = "./?show=catalogue_libary">Danh mục thư viện</a></li>
-        <li style = "display:block;"><a href = "./?show=newsList">Bài viết thư viện</a></li>
-        <li style  = "display:block;"><a href = "./?show=catalogue_introduce">Danh mục giới thiệu</a></li>
-        <li style  = "display:block;"><a href = "./?show=newsList_introduce">Bài viết giới thiệu</a></li>
+        <div style = "display:block;" class = 'title_menu'>Bài viết</div>
+        <li style  = "display:block;"><a href = "./?show=catalogue_introduce">Danh mục báo giá</a></li>
+        <li style  = "display:block;"><a href = "./?show=newsList_introduce">Bài viết báo giá</a></li>
+        <li style = "display:block;"><a href = "./?show=catalogue_libary">Danh mục tin tức</a></li>
+        <li style = "display:block;"><a href = "./?show=newsList">Bài viết tin tức</a></li>
         <!--<li style  = "display:none; {display_31}"><a href = "./?show=catalogue_help">Danh mục trợ giúp</a></li>
         <li style  = "display:none; {display_20}"><a href = "./?show=newsList_help&opt=2">Bài viết trợ giúp</a></li>
         <li style  = "display:none; {display_33}"><a href = "./?show=catalogue_adoption">Danh mục nhận nuôi</a></li>
@@ -30,12 +20,27 @@
     </ul>
 </div>
 <!-- End Tin tức -->
+<!-- Thông tin webiste -->
+<div class="menu" style="font-size: 20px">
+    <ul>
+        <li style = "display:block;"><a href = "./?show=admin_user_info" style="font-weight: bold">Thông tin cá nhân</a></li>
+        <div style = "display:block;" class = 'title_menu'>{information} website</div>
+        <li style = "display:block;"><a href = "./?show=report">Admin control panel</a></li>
+        <li style = "display:block;"><a href = "./?show=com_control_user_account">Quản lý người dùng</a></li>
+        <li style = "display:block;"><a href = "./?show=visitor">Thống kê truy cập</a></li>
+        <li style = "display:block;"><a href = "./?show=who">Ai đang online</a></li>
+        <!--<li style = "display:none; {display_3}"><a href = "./?show=content">{information}</a></li>-->
+        <!--<li style = "display:none; {display_4}"><a href = "./?show=keywords">Quản lý từ khóa</a></li>-->        
+    </ul>
+</div>
+<!-- End Thông tin webiste -->
+
 <!-- Cấu hình-->
 <div class="menu">
     <ul>
-        <div style = "display:block;" class="title_menu">{config} website</div>        
+        <div style = "display:block;" class="title_menu">{config} website</div>
         <li style = "display:none;"><a href = "./?show=iba">Cấm IP truy cập</a></li>
-        <li style = "display:none;"><a href = "././?show=account">{changeacc}</a></li>        
+        <li style = "display:none;"><a href = "././?show=account">{changeacc}</a></li>
         <li><a href="./?show=logout" onclick="return confirm('{logout_conf}?');">{logout}</a></li>
         <!--<li><a href = "./?lang={llag}">{lang}</a></li>-->
         <!--<li style = "display:none; {display_25}"><a href = "./?show=config">{config}</a></li>-->

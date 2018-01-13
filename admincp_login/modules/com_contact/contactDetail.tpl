@@ -7,19 +7,18 @@
         document.forms.frm.submit();
     }
 </script>
-<div class = "title" style ="text-indent:10px">Chi tiết liên hệ/góp ý</div>
+<div class = "title" style ="text-indent:10px">Gửi báo giá</div>
 <div style="margin:10px">
     <p style="float:left;width:100px;clear:both">Họ tên :</p><b>{name}</b><br style="clear:both">
     <p style="float:left;width:100px;clear:both">Email :</p><b>{email}</b><br style="clear:both">
     <p style="float:left;width:100px;clear:both">Điện thoại :</p><b>{phone}</b><br style="clear:both">
     <p style="float:left;width:100px;clear:both">IP :</p><b>{ip}</b><br style="clear:both">
-    <p style="float:left;width:100px;clear:both">Tiêu đề :</p><b>{title_mail}</b><br style="clear:both">
-
-    <p style="float:left;width:100px;clear:both"><b>Nội dung  :</b></p>{comment}<br style="clear:both">
-
+    
 </div>
-<div style = "float:left">
+<!--<div style = "float:left">
     <div>
+        <p style="float:left;width:100px;clear:both">Tiêu đề :</p><b>{title_mail}</b><br style="clear:both">
+        <p style="float:left;width:100px;clear:both"><b>Nội dung  :</b></p>{comment}<br style="clear:both">
         <img style="margin-left:20px" src="../style/images/mail-reply-48-Icon.png"/>
         <br style="clear:both">
         <div style="padding-left:40px;padding-bottom:10px">
@@ -57,4 +56,4 @@
         </div>
 
     </div>
-</div>
+</div>-->

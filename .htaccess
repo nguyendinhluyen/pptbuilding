@@ -30,10 +30,6 @@ RewriteRule ^lien-he$ home/index.php?show=contact [L]
 # Category prices
 RewriteRule ^bang-gia/([a-zA-Z0-9-]*).htm$ home/index.php?show=introduce&news_key=$1 [L]
 
-# List products by category
-RewriteRule ^([a-zA-Z0-9-]*)/$ home/index.php?show=product&category_key=$1 [L]
-RewriteRule ^([a-zA-Z0-9-]*)/trang-([0-9]*)$ home/index.php?show=product&category_key=$1&trang=$2 [L]
-
 #Error 404
 RewriteRule ^404$ home/index.php?show=404 [L]
 ErrorDocument 404 http://pptbuilding.vn/404

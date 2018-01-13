@@ -293,12 +293,12 @@ if (isset($_SESSION['admin'])) {
 //        case 'Optkeywords':
 //            include('com_keywords/Optkeywords.php');
 //            break;
-//        case 'contact':
-//            include('com_contact/contactList.php');
-//            break;
-//        case 'contactdetail':
-//            include('com_contact/contactDetail.php');
-//            break;        
+        case 'contact':
+            include('com_contact/contactList.php');
+            break;
+        case 'contactdetail':
+            include('com_contact/contactDetail.php');
+            break;        
 //        case 'catalogue':
 //            include('com_catalogue/ListCatalogue.php');            
 //            break;

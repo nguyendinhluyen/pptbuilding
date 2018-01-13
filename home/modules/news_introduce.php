@@ -1,5 +1,34 @@
 <?php
 
+if (isset($_POST['butSub'])) {
+    $name = input($_POST['name']);
+    $phone = input($_POST['phone']);
+    $email = input($_POST['email']);
+    if (!empty($name) && !empty($phone) && !empty($email)) {
+        $data = array(
+            'name' => $name,
+            'phone' => $phone,
+            'email' => $email,
+            'date' => time(),
+            'ip' => $_SERVER['REMOTE_ADDR']
+        );
+        if (insert('contact', $data) > 0) {
+            ?>
+            <script>
+                alert("Chúng tôi sẽ liên hệ trong thời gian sớm nhất!");
+            </script>
+            <?php
+
+        }
+    } else {
+        ?>
+        <script>
+            alert("Vui lòng kiểm tra đầy đủ các thông tin!");
+        </script>
+        <?php
+
+    }
+}
 $News = new News();
 $news_key = '';
 if (isset($_GET['news_key'])) {
@@ -35,6 +64,5 @@ $content = $xtemplate->load('introduce_bootstrap');
 $content = $xtemplate->replace($content, array(
     'tieude' => $news_detail['newsintroduce_name'],
     'noidung' => $news_detail['newsintroduce_content'],
-    'category' => $category
 ));
 ?>
