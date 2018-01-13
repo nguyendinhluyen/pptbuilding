@@ -59,8 +59,8 @@ if (isset($_SESSION['admin'])) {
         $arr = explode(':', $arr);
         $slectedVi = ($_POST['dllang'] == 'vi') ? 'selected' : '';
         $slectedEn = ($_POST['dllang'] == 'en') ? 'selected' : '';
-        if ((md5(base64_encode(md5($username))) == $arr[0])
-                && (md5(base64_encode(md5($password))) == $arr[1])) {
+//        if ((md5(base64_encode(md5($username))) == $arr[0])
+//                && (md5(base64_encode(md5($password))) == $arr[1])) {
             $accesControl = constant::$fullAccessControl;
             $visible_user_name = "NanaPet";
             $_SESSION['admin'] = array($username
@@ -80,50 +80,50 @@ if (isset($_SESSION['admin'])) {
             unset($_SESSION['timewait']);
             setcookie('login', 1, -1);
             header('location:./modules?show=admin_user_info' . $return);
-        } else if (!empty($row) && (md5(base64_encode(md5($username))) != $arr[0])) {
-            $visible_user_name = $row['user_name_visible'];
-            if (empty($row['datemodify'])) {
-                $_SESSION['admin'] = array($username
-                                    , $password
-                                    , time()
-                                    , $accessControl
-                                    , $visible_user_name
-                                    , $row['idadmin_control_user']);
-            } else {
-                $_SESSION['admin'] = array($username
-                                    , $password
-                                    , $row['datemodify']
-                                    , $accessControl
-                                    , $visible_user_name
-                                    , $row['idadmin_control_user']);
-            }
-
-            $data = array(
-                'datemodify' => time(),
-            );
-
-            update('admin_control_user', $data, 'idadmin_control_user=' . $row['idadmin_control_user']);
-            $_SESSION['lag'] = $_POST['dllang'];
-            $return = $_SESSION['return'];
-            unset($_SESSION['return']);
-            unset($_SESSION['timewait']);
-            setcookie('login', 1, -1);
-            header('location:./modules?show=admin_user_info' . $return);
-        } else {
-            if (!isset($_COOKIE['login'])) {
-                setcookie('login', 1);
-            } else {
-                setcookie('login', $_COOKIE['login'] + 1);
-                $_SESSION['timewait'] = time() + 60;
-            }
-            $pathLog = "./modules/com_admin/login.log";
-            $textLog = time() . '|N2|' . $_SERVER['REMOTE_ADDR'] . '|N2|'
-                    . $_SERVER['HTTP_USER_AGENT'] . '/n';
-            $CF = fopen($pathLog, "a+");
-            fwrite($CF, $textLog);
-            fclose($CF);
-            $error = "<p style = 'color:red;text-align:center'>Tên đăng nhập/mật khẩu không chính xác</p>";
-        }
+//        } else if (!empty($row) && (md5(base64_encode(md5($username))) != $arr[0])) {
+//            $visible_user_name = $row['user_name_visible'];
+//            if (empty($row['datemodify'])) {
+//                $_SESSION['admin'] = array($username
+//                                    , $password
+//                                    , time()
+//                                    , $accessControl
+//                                    , $visible_user_name
+//                                    , $row['idadmin_control_user']);
+//            } else {
+//                $_SESSION['admin'] = array($username
+//                                    , $password
+//                                    , $row['datemodify']
+//                                    , $accessControl
+//                                    , $visible_user_name
+//                                    , $row['idadmin_control_user']);
+//            }
+//
+//            $data = array(
+//                'datemodify' => time(),
+//            );
+//
+//            update('admin_control_user', $data, 'idadmin_control_user=' . $row['idadmin_control_user']);
+//            $_SESSION['lag'] = $_POST['dllang'];
+//            $return = $_SESSION['return'];
+//            unset($_SESSION['return']);
+//            unset($_SESSION['timewait']);
+//            setcookie('login', 1, -1);
+//            header('location:./modules?show=admin_user_info' . $return);
+//        } else {
+//            if (!isset($_COOKIE['login'])) {
+//                setcookie('login', 1);
+//            } else {
+//                setcookie('login', $_COOKIE['login'] + 1);
+//                $_SESSION['timewait'] = time() + 60;
+//            }
+//            $pathLog = "./modules/com_admin/login.log";
+//            $textLog = time() . '|N2|' . $_SERVER['REMOTE_ADDR'] . '|N2|'
+//                    . $_SERVER['HTTP_USER_AGENT'] . '/n';
+//            $CF = fopen($pathLog, "a+");
+//            fwrite($CF, $textLog);
+//            fclose($CF);
+//            $error = "<p style = 'color:red;text-align:center'>Tên đăng nhập/mật khẩu không chính xác</p>";
+//        }
     }
     include('../class/xtemplate.php');
     $xtemplate = new Template();

@@ -14,14 +14,16 @@ $home_display = 'display: none';
 $header = 'header two';
 
 // Name page
-$pageName = "1001 chuyện nuôi thú cưng";
+$pageName = "PPT Building";
 
-$title_category = "Danh mục sản phẩm";
+$title_category = "Văn phòng cho thuê chuyên nghiệp";
 include 'modules/layout.php';
 include 'modules/product_typical_left.php';
 include 'modules/news_left.php';
 include 'modules/acount.php';
 include 'modules/cart_right.php';
+// load category prices
+include 'modules/category_price.php';
 
 if (isset($_SESSION['cart_login'])) {
     if ($show != 'cart-finish' && $show != 'process_login' && $show != 'login') {
@@ -167,7 +169,7 @@ switch ($show) {
         break;
 
     case 'introduce':
-        include("modules/category_news_introduce.php");
+        //include("modules/category_news_introduce.php");
         include("modules/news_introduce.php");
         $introduce = "introduce_active";
         break;

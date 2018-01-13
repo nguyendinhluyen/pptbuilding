@@ -248,21 +248,21 @@ if (isset($_SESSION['admin'])) {
 //        case 'OptNews_adoption':            
 //            include('com_news_adoption/OptNews.php');
 //            break;
-//        case 'catalogue_introduce':        
-//            include('com_catalogue_introduce/ListCatalogue.php');        
-//            break;
-//        case 'CatalogueOpt_introduce':
-//            include('com_catalogue_introduce/CatalogueOpt.php');
-//            break;
-//        case 'catalogueTree_introduce':
-//            include('com_catalogue_introduce/ListCatalogueTree.php');
-//            break;
-//        case 'newsList_introduce':            
-//            include('com_news_introduce/NewsList.php');            
-//            break;
-//        case 'OptNews_introduce':            
-//            include('com_news_introduce/OptNews.php');            
-//            break;
+        case 'catalogue_introduce':        
+            include('com_catalogue_introduce/ListCatalogue.php');        
+            break;
+        case 'CatalogueOpt_introduce':
+            include('com_catalogue_introduce/CatalogueOpt.php');
+            break;
+        case 'catalogueTree_introduce':
+            include('com_catalogue_introduce/ListCatalogueTree.php');
+            break;
+        case 'newsList_introduce':            
+            include('com_news_introduce/NewsList.php');            
+            break;
+        case 'OptNews_introduce':            
+            include('com_news_introduce/OptNews.php');            
+            break;
 //        case 'catalogueTree_help':
 //            include('com_catalogue_help/ListCatalogueTree.php');
 //            break;

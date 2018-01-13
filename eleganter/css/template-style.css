@@ -2151,11 +2151,17 @@ video {
 .image-width-10 {
     width: 10px;
 }
+.line-height-1-5 {
+    line-height: 1.5;
+}
 .line-height-2 {
     line-height: 2;
 }
-.line-height-1-5 {
-    line-height: 1.5;
+.line-height-30 {
+    line-height: 30px;
+}
+.line-height-60 {
+    line-height: 60px;
 }
 .margin-bottom-0 {
     margin-bottom: 0px !important;
@@ -2171,4 +2177,13 @@ video {
 }
 .padding-top-minus-20 {
     padding-top: -20px;
+}
+.height-300 {
+    height: 300px;
+}
+.font-playfair-display {
+    font-family: Playfair Display;
+}
+.line-height-36 {
+    line-height: 36px !important;
 }

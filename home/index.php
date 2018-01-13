@@ -9,8 +9,8 @@ $link_product_navigation = "";
 
 include('home_start.php');
 include('process/loadModel.php');
-include('process/process_frame.php');
 $html = $xtemplate->load('layout_bootstrap');
+include('process/process_frame.php');
 $chatlive = "";
 
 $giohang = '{cart_right}';

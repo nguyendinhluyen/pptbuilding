@@ -1,115 +1,67 @@
 <style>
     .noidung_help img {
         display: block;
-        width: 90%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto
     }
 </style>
-<div class="container">
-    <div class="row">   
-        <div class="col-xs-12 col-md-3">
-            <img class="hidden-xs hidden-sm"
-                 alt="giới thiệu" 
-                 src="{linkS}layout/bootstrap/images/gioi_thieu.png"
-                 style="clear: both;
-                 width: 90%;
-                 margin-top: 20px;
-                 margin-bottom: 20px">
-            {category}
-            <a href="{linkS}lien-he" class="hidden-xs hidden-sm">
-                <img alt="liên hệ"
-                     src="{linkS}layout/bootstrap/images/product_contact.png"
-                     style="float: left;
-                     clear: both;
-                     margin-top: 10px;
-                     margin-bottom: 40px;
-                     margin-left: 15px"></a>
-        </div>        
-        <div class ="col-xs-12 col-md-9">
-            <div class="hidden-xs hidden-sm"
-                 id="breakcrumb"
-                 style="font-size:14px;
-                 font-family: RobotoSlabRegular;
-                 margin-top: 40px;
-                 margin-bottom: 20px">{breadcrumbs_path}</div>
-            <form method="post" name="contact" id="contact" enctype="multipart/form-data">
-                <div class="tieude_help" style = "margin-bottom: 15px; ">
-                    <span style="font-size: 30px; 
-                          color: #0099FF; 
-                          font-family: PoetsenOne;">{tieude}</span>
-                </div>                         
-                <div class="noidung_help"
-                     style="margin-bottom: 20px;
-                     font-family: RobotoSlabLight;
-                     font-size: 14px;
-                     line-height: 25px">{noidung}</div>
-                <div class="col-sm-12 hidden-xs"
-                     style="margin-bottom: 50px;
-                     margin-top: 20px">
-                    <div class="col-xs-6">
-                        <div class="center-block" 
-                             style="background-color:#ff767c;
-                             padding: 10px;
-                             font-size: 15px;
-                             -moz-border-radius:10px;
-                             -webkit-border-radius:10px;
-                             border-radius: 10px;
-                             text-align: center;
-                             width: 50%;
-                             font-family: RobotoSlabRegular;
-                             float:right">
-                            <a href="{linkS}san-pham/" style="color: #ffffff;">Mua Sản Phẩm</a></div>
-                    </div>
-                    <div class="col-xs-6">
-                        <div class="center-block"
-                             style="background-color:#ff767c;
-                             font-size: 15px;
-                             padding: 10px;
-                             -moz-border-radius:10px;
-                             -webkit-border-radius:10px;
-                             border-radius: 10px;
-                             text-align: center;
-                             width: 50%;
-                             font-family: RobotoSlabRegular;
-                             float:left">
-                            <a href="{linkS}doi-song-pets" style="color: #ffffff;">Đời Sống Pet</a></div>
+<main role="main">
+    <header>
+        <div class="carousel-default owl-carousel carousel-main carousel-nav-white background-dark text-center">
+            <div class="item">
+                <div class="s-12 height-300 hidden-xs">
+                    <img src="{linkS}eleganter/img/header.jpg" alt="hình danh mục">
+                    <div class="carousel-content">
+                        <div class="content-center-vertical line">
+                            <div class="margin-top-60">
+                                <!-- Title -->
+                                <h1 class="text-white text-size-60 text-m-size-30">
+                                    <span style="color: #bc624e !important;">Bảng giá cho thuê phòng</span>
+                                </h1>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xs-12 hidden-sm hidden-md hidden-lg"
-                     style="margin-bottom: 50px;
-                     margin-top: 20px;
-                     padding:0px">
-                    <div class="col-xs-6" style="padding:0px">
-                        <div class="center-block" 
-                             style="background-color:#ff767c;
-                             padding: 10px;
-                             font-size: 15px;
-                             -moz-border-radius:10px;
-                             -webkit-border-radius:10px;
-                             border-radius: 10px;
-                             text-align: center;
-                             width: 100%;
-                             font-family: RobotoSlabRegular;
-                             float:right">
-                            <a href="{linkS}san-pham/" style="color: #ffffff;">Mua Sản Phẩm</a></div>
-                    </div>
-                    <div class="col-xs-6" style="padding-right: 0px">
-                        <div class="center-block"
-                             style="background-color:#ff767c;
-                             font-size: 15px;
-                             padding: 10px;
-                             -moz-border-radius:10px;
-                             -webkit-border-radius:10px;
-                             border-radius: 10px;
-                             text-align: center;
-                             width: 100%;
-                             font-family: RobotoSlabRegular;
-                             float:left">
-                            <a href="{linkS}doi-song-pets" style="color: #ffffff;">Đời Sống Pet</a></div>
-                    </div>
-                </div>
-            </form>
+            </div>
         </div>
+    </header>
+</main>
+<div class="container">
+    <div class="row margin-bottom-60">
+        <div class ="col-xs-12">
+            <div class="text-center pptcolor margin-bottom-40 margin-top-40">
+                    <span class="font-playfair-display text-size-30">{tieude}</span>
+            </div>
+            <div class="noidung_help"
+                style="font-family: 'Open Sans', Arial, sans-serif;
+                    font-size: 14px;
+                    line-height: 25px">{noidung}
+            </div>
+        </div>        
+        <form method="post" name="contact" id="contact" enctype="multipart/form-data">
+             <div class="form-row">                                
+                <div class="form-group col-xs-12 col-md-5">
+                    <div class="font-playfair-display text-size-20 pptcolor line-height-60 margin-top-bottom-10">
+                        Nhận báo giá cho thuê phòng</div>
+                    <label class="font-playfair-display text-size-16 pptcolor" for="name">Tên của bạn:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Tên của bạn">                    
+                </div>
+                <div class="col-xs-12"></div>                
+                <div class="form-group col-xs-12 col-md-5">
+                    <label class="font-playfair-display text-size-16 pptcolor" for="phone">Số điện thoại:</label>
+                    <input type="text" class="form-control" id="phone" placeholder="Số điện thoại">
+                </div>
+                <div class="col-xs-12"></div>
+                <div class="form-group col-xs-12 col-md-5">
+                    <label class="font-playfair-display text-size-16 pptcolor" for="email">Email:</label>
+                    <input type="text" class="form-control" id="email" placeholder="Email">
+                </div>                
+                <div class="col-xs-12"></div>
+                <div class="form-group col-xs-12">                
+                    <button type="submit" class="btn btn-primary">Gửi thông tin</button>
+                </div>
+            </div>            
+        </form>        
     </div>
 </div>

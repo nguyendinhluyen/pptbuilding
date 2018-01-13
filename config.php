@@ -2,8 +2,8 @@
 class config {
 	var $dbtype = 'mysql';
 //	var $host = 'localhost';
-//	var $user = 'chuyennu_user';
-//	var $password = '%nP-}en6BB}w';
+//	var $user = 'pptbuild_abc';
+//	var $password = 'cpsess9208409409';
 //	var $db = 'pptbuild_abc';
 	
 	var $host = '127.0.0.1:3306';

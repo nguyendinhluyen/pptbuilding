@@ -27,14 +27,8 @@ RewriteRule ^doi-song-pets/([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*)/trang-([0-9]*)$ home/
 # Contact 
 RewriteRule ^lien-he$ home/index.php?show=contact [L]
 
-#gioi thieu
-RewriteRule ^gioi-thieu$ home/index.php?show=introduce [L]
-RewriteRule ^gioi-thieu/tat-ca-thuong-hieu.htm$ home/index.php?show=all_brand_name [L]
-RewriteRule ^gioi-thieu/tat-ca-thuong-hieu/trang-([0-9]*)$ home/index.php?show=all_brand_name&trang=$1 [L]
-RewriteRule ^gioi-thieu/([a-zA-Z0-9-]*).htm$ home/index.php?show=introduce&news_key=$1 [L]
-
-#cong tac vien
-RewriteRule ^cong-tac-vien/([0-9]*).html/page=([0-9]*)$ home/index.php?show=user_admin_info&idadmin=$1&page=$2 [L]
+# Category prices
+RewriteRule ^bang-gia/([a-zA-Z0-9-]*).htm$ home/index.php?show=introduce&news_key=$1 [L]
 
 # List products by category
 RewriteRule ^([a-zA-Z0-9-]*)/$ home/index.php?show=product&category_key=$1 [L]

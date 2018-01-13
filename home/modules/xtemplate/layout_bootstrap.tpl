@@ -32,7 +32,7 @@
         <header role="banner" class="position-absolute">
             <nav class="background-transparent background-transparent-hightlight full-width sticky headerbackground">
                 <div class="s-12 l-3">
-                    <a href="index.html" class="logo">
+                    <a href="{linkS}" class="logo">
                         <!-- Logo White Version -->
                         <img class="logo-white" src="{linkS}eleganter/img/logo.png" alt="logo pptbuilding">
                         <!-- Logo Dark Version -->
@@ -45,42 +45,21 @@
                         <li><a href="{linkS}">Trang chủ</a></li>
                         <li><a>Bảng giá</a>
                             <ul>
-                                <li><a>VP Hoàng Dư Khương Quận 10</a>
-                                    <!--<ul>
-                                      <li><a>Service 1 A</a></li>
-                                      <li><a>Service 1 B</a></li>
-                                    </ul>-->
-                                </li>
-                                <li><a>VP Trần Thiện Chánh Quận 10</a></li>
-                            </ul>
+                            <!--BEGINLIST_CATEGORY-->
+                            <!--BEGIN_CATEGORY-->
+                            <li>
+                                <a href="{linkS}bang-gia/{category_key}.htm">{category_name}</a>
+                            </li>
+                            <!--END_CATEGORY-->
+                            <!--ENDLIST_CATEGORY-->
+                            </ul>                            
                         </li>
                         <li><a href="">Tin tức</a></li>
                         <li><a href="">Liên hệ</a></li>                        
                     </ul>
                 </div>
             </nav>
-        </header>
-        <main role="main">
-            <header>
-                <div class="carousel-default owl-carousel carousel-main carousel-nav-white background-dark text-center">
-                    <div class="item">
-                        <div class="s-12">
-                            <img src="{linkS}eleganter/img/header.jpg" alt="hình danh mục">
-                            <div class="carousel-content">
-                                <div class="content-center-vertical line">
-                                    <div class="margin-top-bottom-80">
-                                        <!-- Title -->
-                                        <h1 class="text-white text-size-60 text-m-size-30">
-                                            <span style="color: #bc624e !important;">Sẻ Chia Tiện Ích <br>Kết Nối Thành Công</span>
-                                        </h1>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>                                            
-            </header>
-        </main>
+        </header>        
         <!--End header-->
 
         <!--Content-->
@@ -127,7 +106,8 @@
                             </div>
                             <div class="margin-left-70">
                                 <h3 class="margin-bottom-0 text-size-14">Số điện thoại / Fax</h3>
-                                <p class="text-size-14">Điện thoại: (+ 84 28) 6290 3316 <br>
+                                <p class="text-size-14">Điện thoại: (+ 84 28) 6290 3316<br>
+                                    Di động: 0903 895 489 - 0903 895 480<br>
                                     Fax: (+ 84 28) 6290 3121 <br>
                                 </p>
                             </div>

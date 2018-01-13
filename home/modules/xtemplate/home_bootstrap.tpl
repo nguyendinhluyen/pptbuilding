@@ -1,3 +1,24 @@
+<main role="main">
+    <header>
+        <div class="carousel-default owl-carousel carousel-main carousel-nav-white background-dark text-center">
+            <div class="item">
+                <div class="s-12">
+                    <img src="{linkS}eleganter/img/header.jpg" alt="hình danh mục">
+                    <div class="carousel-content">
+                        <div class="content-center-vertical line">
+                            <div class="margin-top-bottom-80">
+                                <!-- Title -->
+                                <h1 class="text-white text-size-60 text-m-size-30">
+                                    <span style="color: #bc624e !important;">Sẻ Chia Tiện Ích <br>Kết Nối Thành Công</span>
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>                                            
+    </header>
+</main>
 <!-- Section 1 -->
 <section class="section full-width section-small-padding background-white text-center">
     <div class="s-12">
@@ -169,7 +190,7 @@
                         <img src="{linkS}eleganter/img/portfolio/staff_09.jpg" alt="lê tân thứ tám" title="nhân viên" />
                     </a>
                 </div>
-                                    
+
                 <div class="s-12 m-6 l-3">
                     <a class="image-with-hover-overlay image-hover-zoom" href="{linkS}eleganter/img/portfolio/staff_10.jpg" target="_blank">
                         <div class="image-hover-overlay background-primary">
@@ -213,7 +234,7 @@
             </div>
         </div>
         <div class="tab-item">
-            <a class="tab-label text-size-18">Cơ sở vật chất hiện đại</a>
+            <a class="tab-label text-size-18">Module linh hoạt</a>
             <div class="tab-content lightbox-gallery">
                 <div class="s-12 m-6 l-3">
                     <a class="image-with-hover-overlay image-hover-zoom" href="{linkS}eleganter/img/portfolio/infrastructure_01.jpg" target="_blank">
@@ -347,20 +368,17 @@
     <div class="line">
         <div class="margin">
             <div class="s-12 m-12 l-2">
-                <p class="h1 text-size-30 margin-m-bottom-30 text-primary text-line-height-1 text-right line-height-40">Tiện Ích<br> Thành Công</p>
+                <p class="h1 text-size-30 margin-m-bottom-30 text-primary text-line-height-1 text-right line-height-36">Tiện Ích<br> Thành Công</p>
             </div>
             <div class="s-12 m-12 l-5">
-                <p class="text-size-14 margin-m-bottom-30 text-dark">
-                    <b>PPTBUILDING.vn</b> cung cấp dịch vụ cho thuê văn phòng,
-                    được thành lập bởi các doanh nhân tâm huyết, nhiều năm kinh nghiệm trong ngành.
-                    <b>PPTBUILDING.vn</b> có quan hệ đối tác với hơn 200 tòa nhà văn phòng cho thuê chuyên nghiệp khắp TP.HCM.
+                <p class="text-size-18 margin-m-bottom-30 text-dark line-height-30">
+                    Dựa trên kinh nghiệm và thế mạnh về phong thủy cũng như lĩnh vực bất động sản. <b>PPTBUILDING.vn</b>
+                    mong muốn mang đến những giá trị tốt đẹp
                 </p>
             </div>
             <div class="s-12 m-12 l-5">
-                <p class="text-size-14 text-dark">
-                    Dựa trên nền tảng vững chắc trong lĩnh vực nghiên cứu, cung cấp các giải pháp trực tuyến, 
-                    kết hợp với kinh nghiệm và thế mạnh về phong thủy cũng như lĩnh vực bất động sản, 
-                    <b>PPTBUILDING.vn</b> đã cho ra đời Dịch vụ cho thuê Văn phòng.
+                <p class="text-size-18 margin-m-bottom-30 text-dark line-height-30">
+                    nhất để các Star up, Doanh nghiệp vừa và nhỏ có thể an tâm khởi nghiệp. Đó cũng là sứ mệnh của <b>PPTBUILDING.vn</b>.
                 </p>
             </div>
         </div>
