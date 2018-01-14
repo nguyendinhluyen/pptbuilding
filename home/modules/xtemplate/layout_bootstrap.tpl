@@ -57,7 +57,7 @@
                             </ul>                            
                         </li>
                         <li><a href="{linkS}tin-tuc">Tin tức</a></li>
-                        <li><a href="">Liên hệ</a></li>                        
+                        <li><a href="{linkS}lien-he">Liên hệ</a></li>                        
                     </ul>
                 </div>
             </nav>

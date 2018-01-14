@@ -30,9 +30,9 @@
                 <span class="font-playfair-display text-size-30">{tieude}</span>
             </div>
             <div class="noidung_help"
-                 style="font-family: 'Open Sans', Arial, sans-serif;
-                 font-size: 14px;
-                 line-height: 25px">{noidung}
+                style="font-family: 'Open Sans', Arial, sans-serif;
+                    font-size: 14px;
+                    line-height: 25px">{noidung}
             </div>
         </div>
         <form method="post" name="contact" id="contact" enctype="multipart/form-data">
