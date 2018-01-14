@@ -7,22 +7,23 @@ RewriteCond %{REQUEST_FILENAME} -s
 RewriteCond %{HTTP_HOST} ^www.(.+)$ [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
+#home page
 RewriteRule ^$ home/index.php?show=home [L]
 
-# Doi song pets
-RewriteRule ^doi-song-pets/([a-zA-Z0-9-]*).htm$ home/index.php?show=info_detail_libary&news_key=$1&cate=doisongpets [L]
+# tin tuc
+RewriteRule ^tin-tuc/([a-zA-Z0-9-]*).htm$ home/index.php?show=info_detail_libary&news_key=$1&cate=doisongpets [L]
 
-# Doi song pets, navigation
-RewriteRule ^doi-song-pets$ home/index.php?show=info&page=1 [L]
-RewriteRule ^doi-song-pets/trang-([0-9]*)$ home/index.php?show=info&page=$1 [L]
+# tin tuc, navigation
+RewriteRule ^tin-tuc$ home/index.php?show=info&page=1 [L]
+RewriteRule ^tin-tuc/trang-([0-9]*)$ home/index.php?show=info&page=$1 [L]
 
 # Choose parent category such as category dogs and cat category, navigation
-RewriteRule ^doi-song-pets/([a-zA-Z0-9-]*)/$ home/index.php?show=info&page=1&choose=$1 [L]
-RewriteRule ^doi-song-pets/([a-zA-Z0-9-]*)/trang-([0-9]*)$ home/index.php?show=info&choose=$1&page=$2 [L]
+RewriteRule ^tin-tuc/([a-zA-Z0-9-]*)/$ home/index.php?show=info&page=1&choose=$1 [L]
+RewriteRule ^tin-tuc/([a-zA-Z0-9-]*)/trang-([0-9]*)$ home/index.php?show=info&choose=$1&page=$2 [L]
 
 # Choose children category, navigation
-RewriteRule ^doi-song-pets/([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*)/$ home/index.php?show=info&choose1=$1&choose2=$2 [L]
-RewriteRule ^doi-song-pets/([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*)/trang-([0-9]*)$ home/index.php?show=info&choose1=$1&choose2=$2&page=$3 [L]
+RewriteRule ^tin-tuc/([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*)/$ home/index.php?show=info&choose1=$1&choose2=$2 [L]
+RewriteRule ^tin-tuc/([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*)/trang-([0-9]*)$ home/index.php?show=info&choose1=$1&choose2=$2&page=$3 [L]
 
 # Contact 
 RewriteRule ^lien-he$ home/index.php?show=contact [L]

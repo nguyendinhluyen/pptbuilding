@@ -1,0 +1,4 @@
+[14-Jan-2018 15:08:07 Asia/Ho_Chi_Minh] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, boolean given in /home/pptbuilding/public_html/pptbuildingdemo/admincp_login/modules/com_news/CheckNews.php on line 7
+[14-Jan-2018 15:08:07 Asia/Ho_Chi_Minh] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/pptbuilding/public_html/pptbuildingdemo/admincp_login/modules/com_news/CheckNews.php on line 18
+[14-Jan-2018 15:08:17 Asia/Ho_Chi_Minh] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, boolean given in /home/pptbuilding/public_html/pptbuildingdemo/admincp_login/modules/com_news/CheckNews.php on line 7
+[14-Jan-2018 15:08:17 Asia/Ho_Chi_Minh] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/pptbuilding/public_html/pptbuildingdemo/admincp_login/modules/com_news/CheckNews.php on line 18

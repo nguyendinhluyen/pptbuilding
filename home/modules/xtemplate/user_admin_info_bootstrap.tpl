@@ -89,7 +89,7 @@
         <div class="col-xs-12" style="padding: 0px">
             <h2 class="contentheading"
                 style="padding-bottom:10px">
-                <a href="{linkS}doi-song-pets/{news_key}.htm"
+                <a href="{linkS}tin-tuc/{news_key}.htm"
                    style="color:#000;
                    font-size:23px;
                    font-family:PoetsenOne;
@@ -107,7 +107,7 @@
                     </span>
                 </div>
                 <div class="fb-like" 
-                     data-href="{linkS}doi-song-pets/{news_key}.htm" 
+                     data-href="{linkS}tin-tuc/{news_key}.htm" 
                      data-layout="button_count"
                      data-action="like"
                      data-show-faces="true" 
@@ -118,7 +118,7 @@
         <div class="article-content">
             <h4 class="col-xs-6 col-sm-3"
                 style="padding-left: 0px">
-                <a href="{linkS}doi-song-pets/{news_key}.htm" 
+                <a href="{linkS}tin-tuc/{news_key}.htm" 
                    class="previews">
                     <img alt="{news_name}"
                          src="{linkS}upload/news/{news_image}"

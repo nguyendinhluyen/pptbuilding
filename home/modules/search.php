@@ -203,7 +203,7 @@ for ($i = 0; $i < $sum_news; ++$i) {
         $news_category = "tro-giup";
         $linkHelp = ".html";
     } elseif ($listnews[$i]['flag_publisher'] == 1) {
-        $news_category = "doi-song-pets";
+        $news_category = "tin-tuc";
         $linkHelp = "";
     }
     $tpl_temp .= $xtemplate->assign_vars($block, array(

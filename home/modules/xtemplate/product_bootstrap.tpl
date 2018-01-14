@@ -280,7 +280,7 @@
         <li>
             <div class="news_detail">                                            
                 <div class="news_col" style = "float:left">
-                    <a href="{linkS}doi-song-pets/{news_key}/" style = "outline:none">
+                    <a href="{linkS}tin-tuc/{news_key}/" style = "outline:none">
                         <img alt="{news_name}"
                              src="{linkS}upload/news/{news_image}"
                              width="130"
@@ -291,7 +291,7 @@
 
                 <div class="news_title">
                     <div style="font-size: 14px; color: #929292;">
-                        <a class = "news_name" href="{linkS}doi-song-pets/{news_key}/" 
+                        <a class = "news_name" href="{linkS}tin-tuc/{news_key}/" 
                            style="line-height: 25px;                                
                            font-family: RobotoSlabRegular;
                            font-size: 14px;
@@ -304,7 +304,7 @@
         </li>
         <!--END_NEWS-->
         <!--ENDLIST_NEWS-->
-        <a href="{linkS}doi-song-pets">
+        <a href="{linkS}tin-tuc">
             <img alt="xem nhiều hơn"
                  src="{linkS}layout/bootstrap/images/xem_nhieu_hon.png"
                  style = "margin-left: auto;

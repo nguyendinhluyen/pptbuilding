@@ -65,9 +65,9 @@ switch ($show) {
         break;
 
     case 'info':
-        include('modules/category_libary.php');
+        //include('modules/category_libary.php');
         include('modules/info.php');
-        $blog = "active";
+        //$blog = "active";
         break;
 
     case 'info_detail':

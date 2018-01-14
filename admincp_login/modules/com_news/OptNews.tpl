@@ -334,8 +334,8 @@
                        name="publish_day"
                        type="text"
                        value="{date_publisher}"
-                       style="margin-bottom:0px; width:125px;"
-                       onchange="myFunction(this.value)"/>		            
+                       style="margin-bottom:0px; width:125px;">		            
+                       <!--onchange="myFunction(this.value)"-->
                 <span> 
                     <a href="./?show=checkSchedules" style="color:blue; text-decoration: underline" target="_blank"> 
                         Xem lịch đăng bài 

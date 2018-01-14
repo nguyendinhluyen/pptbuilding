@@ -17,7 +17,7 @@
         <!--BEGINLIST_CATEGORY_MOBILE-->
         <!--BEGIN_CATEGORY_MOBILE-->
         <li class="danhmuc_main_mobile">
-            <a href="{linkS}doi-song-pets/{category_key}/"
+            <a href="{linkS}tin-tuc/{category_key}/"
                style="outline: none; font-size: 14px; line-height: 25px; color: #275d72"
                class="{id_danhmuc_main}">{category_name} &nbsp<span class="caret"></span></a>
         </li>

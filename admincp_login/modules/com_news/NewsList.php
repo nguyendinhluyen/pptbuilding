@@ -248,7 +248,7 @@ for ($i = 0; $i < $n; ++$i) {
         'last_modified' => ($row[$i]['last_modified'] == '') ? '0' : date('G:i d/m/Y', $row[$i]['last_modified']),
         'color' => $color,
         'flag_publish' => $flag_publish,
-        'link_preview' => '/doi-song-pets/' . $row[$i]['news_key'] . ".htm"
+        'link_preview' => '/tin-tuc/' . $row[$i]['news_key'] . ".htm"
     ));
 }
 

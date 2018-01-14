@@ -12,8 +12,10 @@
         <!--Bootstrap-->
         <script type="text/javascript" src="{linkS}layout/bootstrap/css/jquery/jquery-1.11.2.min.js"></script>
         <link href="{linkS}layout/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <script src="{linkS}layout/bootstrap/js/bootstrap.min.js"></script>
+        <script src="{linkS}layout/bootstrap/js/bootstrap.min.js"></script>        
         <!--End Bootstrap-->
+        <link rel="stylesheet" href="{linkS}layout/bootstrap/css/style.css">
+        
         <!-- Eleganter layout-->
         <link rel="stylesheet" href="{linkS}eleganter/css/components.css">
         <link rel="stylesheet" href="{linkS}eleganter/css/icons.css">
@@ -54,7 +56,7 @@
                             <!--ENDLIST_CATEGORY-->
                             </ul>                            
                         </li>
-                        <li><a href="">Tin tức</a></li>
+                        <li><a href="{linkS}tin-tuc">Tin tức</a></li>
                         <li><a href="">Liên hệ</a></li>                        
                     </ul>
                 </div>

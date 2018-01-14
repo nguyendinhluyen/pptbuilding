@@ -504,13 +504,13 @@ if (!empty($list_news)) {
         $relation_news .= '<td style="padding-right: 42px">'
                 . '<table>'
                 . '<tr><td>'
-                . '<a class = "news_name" href="{linkS}doi-song-pets/'
+                . '<a class = "news_name" href="{linkS}tin-tuc/'
                 . $list_news[$i]['news_key'] . '.htm" style = "color:#929292;">'
                 . '<img src="{linkS}upload/news/' . $list_news[$i]['news_image'] . '"'
                 . 'alt="{news_name}" style="width:180px;height:180px; cursor:pointer; border-radius: 10px">'
                 . '</a></td></tr>'
                 . '<tr><td>'
-                . '<a class = "news_name" href="{linkS}doi-song-pets/' . $list_news[$i]['news_key'] . '.htm" 
+                . '<a class = "news_name" href="{linkS}tin-tuc/' . $list_news[$i]['news_key'] . '.htm" 
                                                              style = "color:#929292;">'
                 . '<div class="product_main_title" style="width: 180px; text-align: center; margin-top: 15px">'
                 . $list_news[$i]['news_name'] . '</a></div>'

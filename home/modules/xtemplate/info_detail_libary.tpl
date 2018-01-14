@@ -215,7 +215,7 @@
                 </table>
             </div>     
             <div class="fb-like"
-                 data-href="{linkS}doi-song-pets/{news_key}/" 
+                 data-href="{linkS}tin-tuc/{news_key}/" 
                  data-layout="standard" 
                  data-action="like" 
                  data-show-faces="true" 

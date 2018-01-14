@@ -31,7 +31,7 @@
                     <p class="margin-bottom-30 text-size-14">
                         Văn phòng theo module linh hoạt (1 – 8 chỗ ngồi) với diện tích linh hoạt. Không gian làm việc chuyên nghiệp. Chia sẻ các tiện ích dùng chung, giảm thiểu chi phí hơn so với tự thuê văn phòng riêng<br>
                     </p>
-                    <a class="button button-dark-stroke text-size-14" href="/">Xem chi tiết</a>
+                    <a class="button button-dark-stroke text-size-14" href="{linkS}tin-tuc/dich-vu-van-phong-chia-se.htm">Xem chi tiết</a>
                 </div>
             </div>
             <div class="s-12 m-12 l-4 margin-m-bottom">
@@ -42,7 +42,7 @@
                     <p class="margin-bottom-30 text-size-14">
                         Chỗ ngồi làm việc linh hoạt tại khắp các địa điểm đặt văn phòng của PPTBUILDING.vn hoặc tại một địa chỉ cố định cụ thể phù hợp. Được thiết kế bàn làm việc riêng và khu vực tủ hồ sơ.
                     </p>
-                    <a class="button button-dark-stroke text-size-14" href="/">Xem chi tiết</a>
+                    <a class="button button-dark-stroke text-size-14" href="{linkS}tin-tuc/van-phong-ao.htm">Xem chi tiết</a>
                 </div>
             </div>
             <div class="s-12 m-12 l-4 margin-m-bottom">
@@ -53,7 +53,7 @@
                     <p class="margin-bottom-30 text-size-14">
                         Tiết kiệm tối đa chi phí dành cho các công ty mới thành lập / start up bắt đầu khởi nghiệp / văn phòng đại diện… cần thuê địa điểm làm văn phòng có đầy đủ pháp lý và vận hành từ xa.
                     </p>
-                    <a class="button button-dark-stroke text-size-14" href="/">Xem chi tiết</a>
+                    <a class="button button-dark-stroke text-size-14" href="{linkS}tin-tuc/cho-ngoi-lam-viec.htm">Xem chi tiết</a>
                 </div>
             </div>
         </div>

@@ -6,27 +6,23 @@
         margin-right: auto
     }
 </style>
-<main role="main">
-    <header>
-        <div class="carousel-default owl-carousel carousel-main carousel-nav-white background-dark text-center">
-            <div class="item">
-                <div class="s-12 height-300 hidden-xs">
-                    <img src="{linkS}eleganter/img/header.jpg" alt="hình danh mục">
-                    <div class="carousel-content">
-                        <div class="content-center-vertical line">
-                            <div class="margin-top-60">
-                                <!-- Title -->
-                                <h1 class="text-white text-size-60 text-m-size-30">
-                                    <span style="color: #bc624e !important;">Bảng giá cho thuê phòng</span>
-                                </h1>
-                            </div>
-                        </div>
+<div class="carousel-default owl-carousel carousel-main carousel-nav-white background-dark text-center">
+    <div class="item">
+        <div class="s-12 height-300 hidden-xs">
+            <img src="{linkS}eleganter/img/header.jpg" alt="hình danh mục">
+            <div class="carousel-content">
+                <div class="content-center-vertical line">
+                    <div class="margin-top-60">
+                        <!-- Title -->
+                        <h1 class="text-white text-size-60 text-m-size-30">
+                            <span style="color: #bc624e !important;">Bảng giá cho thuê phòng</span>
+                        </h1>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-</main>
+    </div>
+</div>
 <div class="container">
     <div class="row margin-bottom-60">
         <div class ="col-xs-12">

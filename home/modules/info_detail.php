@@ -49,7 +49,7 @@ switch ($cate) {
     case 'doisongpets':
         $library_active = 'library_active';
         $bread = "Thư viện";
-        $link = "{linkS}doi-song-pets";
+        $link = "{linkS}tin-tuc";
         break;
 }
 

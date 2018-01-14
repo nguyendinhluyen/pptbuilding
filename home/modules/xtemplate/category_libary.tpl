@@ -2,7 +2,7 @@
     <!--BEGINLIST_CATEGORY-->
     <!--BEGIN_CATEGORY-->
     <li class="danhmuc_main">
-        <h2><a href="{linkS}doi-song-pets/{category_key}/"
+        <h2><a href="{linkS}tin-tuc/{category_key}/"
                style="outline: none; font-size: 14px; line-height: 25px"
                class="{id_danhmuc_main}">{category_name}</a></h2>
     </li>
@@ -13,7 +13,7 @@
              width="8px"
              height="10px"
              style="{img_danhmuc_sub_display}; margin-right: 3px">
-        <a href="{linkS}doi-song-pets/{category_key}/{category_sub_key}/"
+        <a href="{linkS}tin-tuc/{category_key}/{category_sub_key}/"
            style="outline: none;
            font-size: 14px"
            class="{id_danhmuc_sub}">{category_sub_name}</a>
