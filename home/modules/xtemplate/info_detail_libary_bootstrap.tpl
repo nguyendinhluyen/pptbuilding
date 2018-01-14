@@ -1,6 +1,6 @@
 <style>    
     .article-content-container img {
-        width: 90%;
+        width: 50%;
         display:block;
         margin-left: auto;
         margin-right: auto

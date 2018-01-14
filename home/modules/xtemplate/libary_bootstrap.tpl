@@ -55,7 +55,7 @@
                     </div>
                     <div class="article-content">
                         <div class="row">
-                            <div class="col-xs-5 col-sm-3">
+                            <div class="col-xs-5 col-sm-2">
                                 <h4>
                                     <a href="{linkS}tin-tuc/{news_key}.htm"
                                        class="previews">
