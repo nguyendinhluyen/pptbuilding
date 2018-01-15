@@ -368,17 +368,21 @@
     <div class="line">
         <div class="margin">
             <div class="s-12 m-12 l-2">
-                <p class="h1 text-size-30 margin-m-bottom-30 text-primary text-line-height-1 text-right line-height-36">Tiện Ích<br> Thành Công</p>
+                <p class="h1 text-size-30 margin-m-bottom-30 text-primary text-right line-height-50">Tiện Ích<br> Thành Công</p>
             </div>
             <div class="s-12 m-12 l-5">
-                <p class="text-size-18 margin-m-bottom-30 text-dark line-height-30">
-                    Dựa trên kinh nghiệm và thế mạnh về phong thủy cũng như lĩnh vực bất động sản. <b>PPTBUILDING.vn</b>
-                    mong muốn mang đến những giá trị tốt đẹp
+                <p class="text-size-14 margin-m-bottom-30 text-dark line-height-25">
+                    <b>PPTBUILDING.vn</b> cung cấp dịch vụ cho thuê văn phòng, 
+                    được thành lập bởi các doanh nhân tâm huyết, 
+                    nhiều năm kinh nghiệm trong ngành. 
+                    <b>PPTBUILDING.vn</b> có quan hệ đối tác với hơn 200 tòa nhà văn phòng cho thuê chuyên nghiệp khắp TP.HCM.
                 </p>
             </div>
             <div class="s-12 m-12 l-5">
-                <p class="text-size-18 margin-m-bottom-30 text-dark line-height-30">
-                    nhất để các Star up, Doanh nghiệp vừa và nhỏ có thể an tâm khởi nghiệp. Đó cũng là sứ mệnh của <b>PPTBUILDING.vn</b>.
+                <p class="text-size-14 margin-m-bottom-30 text-dark line-height-30">
+                    Dựa trên kinh nghiệm thực tế và thế mạnh về phong thủy cũng như lĩnh vực bất động sản. 
+                    <b>PPTBUILDING.vn</b> mong muốn mang đến những giá trị tốt đẹp nhất để các Star up, 
+                    doanh nghiệp vừa và nhỏ có thể an tâm khởi nghiệp. Đó cũng là sứ mệnh của <b>PPTBUILDING.vn</b>.
                 </p>
             </div>
         </div>
