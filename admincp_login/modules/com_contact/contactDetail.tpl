@@ -13,7 +13,7 @@
     <p style="float:left;width:100px;clear:both">Email :</p><b>{email}</b><br style="clear:both">
     <p style="float:left;width:100px;clear:both">Điện thoại :</p><b>{phone}</b><br style="clear:both">
     <p style="float:left;width:100px;clear:both">IP :</p><b>{ip}</b><br style="clear:both">
-    
+    <p style="float:left;width:100px;clear:both"><b>Nội dung  :</b></p>{comment}<br style="clear:both">
 </div>
 <!--<div style = "float:left">
     <div>

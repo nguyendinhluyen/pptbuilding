@@ -109,7 +109,7 @@
                             <div class="margin-left-70">
                                 <h3 class="margin-bottom-0 text-size-14">Số điện thoại / Fax</h3>
                                 <p class="text-size-14">Điện thoại: (+ 84 28) 6290 3316<br>
-                                    Di động: 0903 895 489 - 0903 895 480<br>
+                                    Di động: 0903 895 489 - 0918 242 328 - 0903 895 480<br>
                                     Fax: (+ 84 28) 6290 3121 <br>
                                 </p>
                             </div>
