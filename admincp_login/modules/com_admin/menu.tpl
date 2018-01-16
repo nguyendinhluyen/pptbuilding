@@ -39,8 +39,8 @@
 <div class="menu">
     <ul>
         <div style = "display:block;" class="title_menu">{config} website</div>
-        <li style = "display:none;"><a href = "./?show=iba">Cấm IP truy cập</a></li>
-        <li style = "display:none;"><a href = "././?show=account">{changeacc}</a></li>
+        <li style = "display:block;"><a href = "./?show=iba">Cấm IP truy cập</a></li>
+        <li style = "display:block;"><a href = "././?show=account">{changeacc}</a></li>
         <li><a href="./?show=logout" onclick="return confirm('{logout_conf}?');">{logout}</a></li>
         <!--<li><a href = "./?lang={llag}">{lang}</a></li>-->
         <!--<li style = "display:none; {display_25}"><a href = "./?show=config">{config}</a></li>-->
