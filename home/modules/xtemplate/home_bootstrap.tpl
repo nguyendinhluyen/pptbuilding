@@ -355,6 +355,13 @@
                     <p class="h1 text-size-16">CEO / Mộc Kiến Gia / Corp</p>
                 </div>
             </div>
+            <div class="item">
+                <div class="s-12 m-12 l-12 center text-center">
+                    <img class="image-testimonial-small height_50_100" src="{linkS}eleganter/img/portfolio/testimonials_05.png" alt="cảm nhận khách hàng">
+                    <p class="h1 margin-bottom text-size-20">PPTBUILDING.vn với không gian thoáng mát đem lại cảm giác thoải mái khi làm việc. Có hẻm xe hơi nên rất thuận tiện để đón tiếp khách đến làm việc. Gía cả lại rất hợp lí, chúng tôi rất hài lòng về dịch vụ của PPTBUILDING.vn</p>
+                    <p class="h1 text-size-16">CEO / Redixel / Corp</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
