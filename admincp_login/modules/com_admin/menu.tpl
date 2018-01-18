@@ -23,10 +23,10 @@
 <!-- Thông tin webiste -->
 <div class="menu" style="font-size: 20px">
     <ul>
-        <!--<li style = "display:block;"><a href = "./?show=admin_user_info" style="font-weight: bold">Thông tin cá nhân</a></li>-->
+        <!--<li style = "display:block;"><a href = "./?show=admin_user_info" style="font-weight: bold">Thông tin cá nhân</a></li>
         <div style = "display:block;" class = 'title_menu'>{information} website</div>
         <li style = "display:block;"><a href = "./?show=report">Admin control panel</a></li>
-        <li style = "display:block;"><a href = "./?show=com_control_user_account">Quản lý người dùng</a></li>
+        <li style = "display:block;"><a href = "./?show=com_control_user_account">Quản lý người dùng</a></li>-->
         <li style = "display:block;"><a href = "./?show=visitor">Thống kê truy cập</a></li>
         <li style = "display:block;"><a href = "./?show=who">Ai đang online</a></li>
         <!--<li style = "display:none; {display_3}"><a href = "./?show=content">{information}</a></li>-->
