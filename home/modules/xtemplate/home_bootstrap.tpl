@@ -196,36 +196,36 @@
             <div class="item">
                 <div class="s-12 m-12 l-12 center text-center">
                     <img class="image-testimonial-small height_50_100" src="{linkS}eleganter/img/portfolio/testimonials_01.png" alt="cảm nhận khách hàng">
-                    <p class="h1 margin-bottom text-size-20">Dịch vụ văn phòng ảo của PPT Building thật sự tuyệt vời, công ty tôi đã tiết kiệm được tối đa chi phí văn phòng nhưng nhận lại giá trị cao hơn rất nhiều lần so với mong đợi.</p>
-                    <p class="h1 text-size-16">CEO / JSC / Corp</p>
+                    <p class="h1 margin-bottom text-size-18 pptfont">Dịch vụ văn phòng ảo của PPT Building thật sự tuyệt vời, công ty tôi đã tiết kiệm được tối đa chi phí văn phòng nhưng nhận lại giá trị cao hơn rất nhiều lần so với mong đợi.</p>
+                    <p class="h1 text-size-16 pptfont">CEO / JSC / Corp</p>
                 </div>
             </div>
             <div class="item">
                 <div class="s-12 m-12 l-12 center text-center">
                     <img class="image-testimonial-small height_150" src="{linkS}eleganter/img/portfolio/testimonials_02.png" alt="cảm nhân khách hàng">
-                    <p class="h1 margin-bottom text-size-20">Chúng tôi không phải lo bất cứ vấn đề gì về văn phòng, hoàn toàn an tâm để tập trung hết tâm trí vào việc kinh doanh!</p>
-                    <p class="h1 text-size-16">Marketing / Seatechs / Corp</p>
+                    <p class="h1 margin-bottom text-size-18 pptfont">Chúng tôi không phải lo bất cứ vấn đề gì về văn phòng, hoàn toàn an tâm để tập trung hết tâm trí vào việc kinh doanh!</p>
+                    <p class="h1 text-size-16 pptfont">Marketing / Seatechs / Corp</p>
                 </div>
             </div>
             <div class="item">
                 <div class="s-12 m-12 l-12 center text-center">
                     <img class="image-testimonial-small height_50_100" src="{linkS}eleganter/img/portfolio/testimonials_03.png" alt="cảm nhận khách hàng">
-                    <p class="h1 margin-bottom text-size-20">Những giá trị cộng đồng PPT Building đem lại: như các mối Quan Hệ, sự Liên Kết và các cơ hội Hợp Tác, chúng tôi đánh giá cao tại PPT Building.</p>
-                    <p class="h1 text-size-16">CEO / Fridaia / Corp</p>
+                    <p class="h1 margin-bottom text-size-18 pptfont">Những giá trị cộng đồng PPT Building đem lại: như các mối Quan Hệ, sự Liên Kết và các cơ hội Hợp Tác, chúng tôi đánh giá cao tại PPT Building.</p>
+                    <p class="h1 text-size-16 pptfont">CEO / Fridaia / Corp</p>
                 </div>
             </div>
             <div class="item">
                 <div class="s-12 m-12 l-12 center text-center">
                     <img class="image-testimonial-small height_50_100" src="{linkS}eleganter/img/portfolio/testimonials_04.png" alt="cảm nhận khách hàng">
-                    <p class="h1 margin-bottom text-size-20">PPT Building không dừng lại ở văn phòng cho thuê mà còn đem lại một văn hoá ứng xử nhã nhẵn, chuyên nghiệp. Chúng tôi hoàn toàn hài lòng với dịch vụ tại đây.</p>
-                    <p class="h1 text-size-16">CEO / Mộc Kiến Gia / Corp</p>
+                    <p class="h1 margin-bottom text-size-18 pptfont">PPT Building không dừng lại ở văn phòng cho thuê mà còn đem lại một văn hoá ứng xử nhã nhẵn, chuyên nghiệp. Chúng tôi hoàn toàn hài lòng với dịch vụ tại đây.</p>
+                    <p class="h1 text-size-16 pptfont">CEO / Mộc Kiến Gia / Corp</p>
                 </div>
             </div>
             <div class="item">
                 <div class="s-12 m-12 l-12 center text-center">
                     <img class="image-testimonial-small height_50_100" src="{linkS}eleganter/img/portfolio/testimonials_05.png" alt="cảm nhận khách hàng">
-                    <p class="h1 margin-bottom text-size-20">PPTBUILDING.vn với không gian thoáng mát đem lại cảm giác thoải mái khi làm việc. Có hẻm xe hơi nên rất thuận tiện để đón tiếp khách đến làm việc. Gía cả lại rất hợp lí, chúng tôi rất hài lòng về dịch vụ của PPTBUILDING.vn</p>
-                    <p class="h1 text-size-16">CEO / Redixel / Corp</p>
+                    <p class="h1 margin-bottom text-size-18 pptfont">PPTBUILDING.vn với không gian thoáng mát đem lại cảm giác thoải mái khi làm việc. Có hẻm xe hơi nên rất thuận tiện để đón tiếp khách đến làm việc. Gía cả lại rất hợp lí, chúng tôi rất hài lòng về dịch vụ của PPTBUILDING.vn</p>
+                    <p class="h1 text-size-16 pptfont">CEO / Redixel / Corp</p>
                 </div>
             </div>
         </div>
@@ -244,7 +244,7 @@
                 <p class="h1 text-size-30 margin-m-bottom-30 text-primary text-right line-height-50">Tiện Ích<br> Thành Công</p>
             </div>
             <div class="s-12 m-12 l-5">
-                <p class="text-size-14 margin-m-bottom-30 text-dark line-height-25">
+                <p class="text-size-16 margin-m-bottom-30 text-dark line-height-30">
                     <b>PPTBUILDING.vn</b> cung cấp dịch vụ cho thuê văn phòng, 
                     được thành lập bởi các doanh nhân tâm huyết, 
                     nhiều năm kinh nghiệm trong ngành. 
@@ -252,7 +252,7 @@
                 </p>
             </div>
             <div class="s-12 m-12 l-5">
-                <p class="text-size-14 margin-m-bottom-30 text-dark line-height-30">
+                <p class="text-size-16 margin-m-bottom-30 text-dark line-height-30">
                     Dựa trên kinh nghiệm thực tế và thế mạnh về phong thủy cũng như lĩnh vực bất động sản. 
                     <b>PPTBUILDING.vn</b> mong muốn mang đến những giá trị tốt đẹp nhất để các Star up, 
                     doanh nghiệp vừa và nhỏ có thể an tâm khởi nghiệp. Đó cũng là sứ mệnh của <b>PPTBUILDING.vn</b>.

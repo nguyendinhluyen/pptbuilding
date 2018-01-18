@@ -2193,3 +2193,6 @@ video {
 .white-color {
     color:white !important;
 }
+.pptfont {
+    font-family: 'Open Sans',Arial,sans-serif !important;
+}
