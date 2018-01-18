@@ -20,7 +20,7 @@
           style="font-size: 30px;
                 font-family: 'Open Sans', Arial, sans-serif;
                 margin-top: 30px;
-                margin-bottom: 10px">PPT Building</div>
+                margin-bottom: 10px">PPTBUILDING.vn</div>
     <div class="col-xs-12" 
          style="line-height: 30px;
             font-family: 'Open Sans', Arial, sans-serif;

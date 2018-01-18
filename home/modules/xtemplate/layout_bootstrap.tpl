@@ -72,7 +72,7 @@
         <footer>
             <!-- Contact Us -->
             <div class="background-primary padding text-center">
-                <p class="h1">Liên hệ: (+ 84 28) 6290 3316</p>
+                <div class="text-size-20 white-color">Hotline: 0903 895 489</div>
             </div>
             <!-- Main Footer -->
             <section class="background-dark full-width">

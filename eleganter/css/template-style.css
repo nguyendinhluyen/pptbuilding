@@ -2187,3 +2187,9 @@ video {
 .line-height-50 {
     line-height: 50px !important;
 }
+.black-color {
+    color:black !important;
+}
+.white-color {
+    color:white !important;
+}
