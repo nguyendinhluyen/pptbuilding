@@ -16,17 +16,16 @@
     </div>
 </div>
 <div class="container">       
-    <div class="pptcolor" 
-          style="font-size: 30px;
-                font-family: 'Open Sans', Arial, sans-serif;
+    <div class="pptcolor pptfont" 
+          style="font-size: 30px;                
                 margin-top: 30px;
                 margin-bottom: 10px">PPTBUILDING.vn</div>
-    <div class="col-xs-12" 
-         style="line-height: 30px;
-            font-family: 'Open Sans', Arial, sans-serif;
+    <div class="col-xs-12 pptfont" 
+         style="line-height: 30px;            
             font-size: 16px;
             margin-bottom: 20px;
-            padding: 0px">        
+            padding: 0px;
+            color: black">        
             - Thời gian làm việc từ 8h00 - 17h30 từ T2 - T7 <br>
             - Điện thoại: (+ 84 28) 6290 3316 <br>
             - Fax: (+ 84 28) 6290 3121 <br>
