@@ -371,9 +371,9 @@ if (isset($_SESSION['admin'])) {
 //        case 'SupportOpt':
 //            include('com_support/SupportOpt.php');
 //            break;        
-//        case 'config':
-//            include('com_config/config.php');
-//            break;
+        case 'config':
+            include('com_config/config.php');
+            break;
 //
 //        case 'comment':
 //            include('com_product/ProductComment.php');

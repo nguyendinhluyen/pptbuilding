@@ -162,11 +162,11 @@
             </table>
 
             <!--Banner library-->
-            <p>
+            <!--<p>
                 <label><b>Banner trái thư viện 1</b></label>
             </p>
             <div class ='err'>{error_1}</div>
-            </br>
+            <br>
             <table>
                 <tr>
                     <td>                                                                      
@@ -267,8 +267,7 @@
                     </td>
                 </tr>
             </table>
-
-            <!--<p>
+            <p>
                 <label><b>Banner trái thư viện 2</b></label>
             </p>	  
             <div class ='err'>{error_2}</div>	
@@ -286,98 +285,96 @@
                         <img src="../../layout/images/logo/banner_left_2/{banner_left_2_1}" width="100" 
                              height="200"/>
                         <p align="center">
-            {banner_left_2_1}
-        </p>
-    </td>
-    <td>
-        <input type = 'file' name = 'banner_left_2_1'/> 
-    </td>
-</tr>   
-<tr> 
-    <td>                       
-        <label>Banner left 2</label>
-        </br>
-        </br>
-        <a href="?show=config&action=del&id=banner_left_2_2" onclick="return confirm('Bạn muốn xóa Banner left 2?');"> 
-            <b style="text-align:center; color:#00F">Xóa</b></a>                           
-    </td>
-    <td style="padding-right:20px">                                                                      
-        <img src="../../layout/images/logo/banner_left_2/{banner_left_2_2}" width="100" 
-             height="200"/>
-        <p align="center">
-            {banner_left_2_2}
-        </p>
-    </td>
-    <td>                       
-        <input type = 'file' name = 'banner_left_2_2'/> 
-    </td>
-</tr>
-<tr> 
-    <td>                       
-        <label>Banner left 3</label> 
-        </br>
-        </br>
-        <a href="?show=config&action=del&id=banner_left_2_3" onclick="return confirm('Bạn muốn xóa Banner left 3?');"> 
-            <b style="text-align:center; color:#00F">Xóa</b></a>                          
-    </td>
-    <td style="padding-right:20px">                                                                      
-        <img src="../../layout/images/logo/banner_left_2/{banner_left_2_3}" width="100" 
-             height="200"/>
-        <p align="center">
-            {banner_left_2_3}
-        </p>
-    </td>
-    <td>                       
-        <input type = 'file' name = 'banner_left_2_3'/> 
-    </td>
-</tr>
-<tr> 
-    <td>                       
-        <label>Banner left 4</label> 
-        </br>
-        </br>
-        <a href="?show=config&action=del&id=banner_left_2_4" onclick="return confirm('Bạn muốn xóa Banner left 4?');"> 
-            <b style="text-align:center; color:#00F">Xóa</b></a>                          
-    </td>
-    <td style="padding-right:20px">                                                                      
-        <img src="../../layout/images/logo/banner_left_2/{banner_left_2_4}" width="100" 
-             height="200"/>
-        <p align="center">
-            {banner_left_2_4}
-        </p>
-    </td>
-    <td>                       
-        <input type = 'file' name = 'banner_left_2_4'/> 
-    </td>
-</tr>
-<tr> 
-    <td>                       
-        <label>Banner left 5</label>                        
-        </br>
-        </br>
-        <a href="?show=config&action=del&id=banner_left_2_5" onclick="return confirm('Bạn muốn xóa Banner left 5?');"> 
-            <b style="text-align:center; color:#00F">Xóa</b></a>   
-    </td>
-    <td style="padding-right:20px">                                                                      
-        <img src="../../layout/images/logo/banner_left_2/{banner_left_2_5}" width="100" 
-             height="200"/>
-        <p align="center">
-            {banner_left_2_5}
-        </p>
-    </td>
-    <td>                      
-        <input type = 'file' name = 'banner_left_2_5'/>
-    </td>
-</tr>
-</table>-->
-
+                            {banner_left_2_1}
+                        </p>
+                    </td>
+                    <td>
+                        <input type = 'file' name = 'banner_left_2_1'/> 
+                    </td>
+                </tr>   
+                <tr> 
+                    <td>                       
+                        <label>Banner left 2</label>
+                        </br>
+                        </br>
+                        <a href="?show=config&action=del&id=banner_left_2_2" onclick="return confirm('Bạn muốn xóa Banner left 2?');"> 
+                            <b style="text-align:center; color:#00F">Xóa</b></a>                           
+                    </td>
+                    <td style="padding-right:20px">                                                                      
+                        <img src="../../layout/images/logo/banner_left_2/{banner_left_2_2}" width="100" 
+                             height="200"/>
+                        <p align="center">
+                            {banner_left_2_2}
+                        </p>
+                    </td>
+                    <td>                       
+                        <input type = 'file' name = 'banner_left_2_2'/> 
+                    </td>
+                </tr>
+                <tr> 
+                    <td>                       
+                        <label>Banner left 3</label> 
+                        </br>
+                        </br>
+                        <a href="?show=config&action=del&id=banner_left_2_3" onclick="return confirm('Bạn muốn xóa Banner left 3?');"> 
+                            <b style="text-align:center; color:#00F">Xóa</b></a>                          
+                    </td>
+                    <td style="padding-right:20px">                                                                      
+                        <img src="../../layout/images/logo/banner_left_2/{banner_left_2_3}" width="100" 
+                             height="200"/>
+                        <p align="center">
+                            {banner_left_2_3}
+                        </p>
+                    </td>
+                    <td>                       
+                        <input type = 'file' name = 'banner_left_2_3'/> 
+                    </td>
+                </tr>
+                <tr> 
+                    <td>                       
+                        <label>Banner left 4</label> 
+                        </br>
+                        </br>
+                        <a href="?show=config&action=del&id=banner_left_2_4" onclick="return confirm('Bạn muốn xóa Banner left 4?');"> 
+                            <b style="text-align:center; color:#00F">Xóa</b></a>                          
+                    </td>
+                    <td style="padding-right:20px">                                                                      
+                        <img src="../../layout/images/logo/banner_left_2/{banner_left_2_4}" width="100" 
+                             height="200"/>
+                        <p align="center">
+                            {banner_left_2_4}
+                        </p>
+                    </td>
+                    <td>                       
+                        <input type = 'file' name = 'banner_left_2_4'/> 
+                    </td>
+                </tr>
+                <tr> 
+                    <td>                       
+                        <label>Banner left 5</label>                        
+                        </br>
+                        </br>
+                        <a href="?show=config&action=del&id=banner_left_2_5" onclick="return confirm('Bạn muốn xóa Banner left 5?');"> 
+                            <b style="text-align:center; color:#00F">Xóa</b></a>   
+                    </td>
+                    <td style="padding-right:20px">                                                                      
+                        <img src="../../layout/images/logo/banner_left_2/{banner_left_2_5}" width="100" 
+                             height="200"/>
+                        <p align="center">
+                            {banner_left_2_5}
+                        </p>
+                    </td>
+                    <td>                      
+                        <input type = 'file' name = 'banner_left_2_5'/>
+                    </td>
+                </tr>
+            </table>
             <p>
                 <label><b>Email</b><br><span>Email này dùng để nhận thông tin góp ý từ người dùng , và dùng mail này để gởi thông tin đến người dùng</span></label><input type = 'text' name = 'mail_admin' class ='fieldinput' value ='{mail_admin}'>
             </p>
-
-            <!--<p>
+            <p>
                 <label><b>Rss</b><br><span>Tin tức RSS sẽ được lấy từ địa chỉ này</span></label><input type = 'text' name = 'rss' class ='fieldinput' value ='{rss}'>
-            </p>-->
+            </p>
             <div style="float:left">
                 </br>
                 <label style="width:350px;float:left"><b>{colorweb}</b><br><span style="font-style:italic;color:#4D4040";>Làm mới web bằng cách thay đổi màu nền theo ý thích của bạn</span></label>
@@ -444,8 +441,8 @@
                 <input class = "button" 
                        type = "submit" 
                        name = "btnSub" 
-                       value = "Lưu thông tin" 
-                       style="margin-top: 20px"/>
+                       value = "Lưu" 
+                       style="margin-top: 20px; width: 50px; height: 30px"/>
             </p>
             <br/>
     </form>

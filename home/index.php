@@ -1,10 +1,9 @@
 <?php
-
 header('Content-Type: text/html; charset=utf-8');
 date_default_timezone_set('Asia/Ho_Chi_Minh');
-$title_page = 'PPT Building - Văn phòng cho thuê chuyên nghiệp';
-$description = 'cho thuê văn phòng chuyên nghiệp, cung cấp dịch vụ cho thuê văn phòng';
-$keywords = 'dịch vụ văn phòng, cho thuê văn phòng';
+$title_page = 'PPT BUILDING.vn - Văn phòng cho thuê chuyên nghiệp';
+$description = 'PPTBUILDING.vn chuyên cho thuê văn phòng chuyên nghiệp, cung cấp dịch vụ cho thuê văn phòng giá rẻ';
+$keywords = 'dịch vụ cho thuê văn phòng, cho thuê văn phòng giá rẻ';
 $link_product_navigation = "";
 
 include('home_start.php');
@@ -20,23 +19,23 @@ $main_banner = '';
 
 if (!empty($banner)) {
     $main_banner .= '<div><a href="' . $href_banner . '">'
-            . '<img src="{linkS}layout/images/logo/banner/' . $banner . '"/></a></div>';
+            . '<img style="height: 650px" src="{linkS}layout/images/logo/banner/' . $banner . '"/></a></div>';
 }
 if (!empty($banner_2)) {
     $main_banner .= '<div><a href="' . $href_banner_2 . '">'
-            . '<img src="{linkS}layout/images/logo/banner/' . $banner_2 . '"/></a></div>';
+            . '<img style="height: 650px" src="{linkS}layout/images/logo/banner/' . $banner_2 . '"/></a></div>';
 }
 if (!empty($banner_3)) {
     $main_banner .= '<div><a href="' . $href_banner_3 . '">'
-            . '<img src="{linkS}layout/images/logo/banner/' . $banner_3 . '"/></a></div>';
+            . '<img style="height: 650px" src="{linkS}layout/images/logo/banner/' . $banner_3 . '"/></a></div>';
 }
 if (!empty($banner_4)) {
     $main_banner .= '<div><a href="' . $href_banner_4 . '">'
-            . '<img src="{linkS}layout/images/logo/banner/' . $banner_4 . '"/></a></div>';
+            . '<img style="height: 650px" src="{linkS}layout/images/logo/banner/' . $banner_4 . '"/></a></div>';
 }
 if (!empty($banner_5)) {
     $main_banner .= '<div><a href="' . $href_banner_5 . '">'
-            . '<img src="{linkS}layout/images/logo/banner/' . $banner_5 . '"/></a></div>';
+            . '<img style="height: 650px" src="{linkS}layout/images/logo/banner/' . $banner_5 . '"/></a></div>';
 }
 
 $left_banner_1 = '';
