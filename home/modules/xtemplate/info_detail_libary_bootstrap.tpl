@@ -42,11 +42,7 @@
                           font-family: 'Open Sans', Arial, sans-serif;">{date_added}</span>
                 </div>
                 <div class="row">                    
-                    <div class="article-content col-sm-12"
-                         style="line-height:25px;
-                         font-size: 14px;
-                         padding-top: 5px;
-                         font-family: 'Open Sans', Arial, sans-serif !important;">
+                    <div class="article-content col-sm-12">
                         <span class="article-content-container"
                               style="text-align:justify;">
                             {news_content}

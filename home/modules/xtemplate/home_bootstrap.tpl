@@ -38,7 +38,7 @@
                 <div class="padding-1x block-bordered">
                     <img class="margin-bottom-30 image-width-100 image-center"
                          src="{linkS}eleganter/img/van-phong-ao.png" alt="văn phòng ảo">
-                    <h2 class="text-bold text-size-18">VĂN PHÒNG ẢO</h2>
+                    <h2 class="text-bold text-size-18">CHỖ NGỒI LÀM VIỆC</h2>
                     <p class="margin-bottom-30 text-size-14 black-color">
                         Chỗ ngồi làm việc <b>linh hoạt</b> tại khắp các địa điểm đặt văn phòng của PPTBUILDING.vn. Chỗ ngồi làm việc <b>cố định</b> tại 1 địa chỉ cố định cụ thể. Được <b>thiết kế</b> bàn làm việc riêng và khu vực tủ hồ sơ.
                     </p>
@@ -49,7 +49,7 @@
                 <div class="padding-1x block-bordered">
                     <img class="margin-bottom-30 image-width-100 image-center"
                          src="{linkS}eleganter/img/cho-ngoi-lam-viec.png" alt="chỗ ngồi làm việc">
-                    <h2 class="text-bold text-size-18">CHỖ NGỒI LÀM VIỆC</h2>
+                    <h2 class="text-bold text-size-18">VĂN PHÒNG ẢO</h2>
                     <p class="margin-bottom-30 text-size-14 black-color">
                         <b>Tiết kiệm tối đa</b> chi phí dành cho các công ty mới thành lập / start up bắt đầu khởi nghiệp / văn phòng đại diện… cần thuê địa điểm làm văn phòng có đầy đủ pháp lý và vận hành từ xa.
                     </p>
