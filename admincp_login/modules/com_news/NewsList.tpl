@@ -72,7 +72,7 @@
                     {lag_page} : {page}                   
                 </td>
             </tr>			
-            <tr>    
+            <!--<tr>    
                 <td style="width: 100px">
                     Bộ lọc Copywriters
                 </td>
@@ -85,9 +85,9 @@
                 <td>
                     {catlist}
                 </td>
-            </tr>
+            </tr>-->
         </table>
-        <table>
+        <!--<table>
             <tr>
                 <td style="width: 100px;">
                     Từ ngày
@@ -138,7 +138,7 @@
                        target="_blank"> Xem lịch đăng bài </a> 
                 </td>             
             </tr>
-        </table>
+        </table>-->
     </div>    
     <br/>
     <input style="width:80px; height: 25px;{display_delete}"

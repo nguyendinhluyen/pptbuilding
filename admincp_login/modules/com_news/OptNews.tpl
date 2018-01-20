@@ -341,9 +341,19 @@
                         Xem lịch đăng bài 
                     </a> 
                 </span>
+            </p>            
+            <p style="clear:both">                      
+                <input class = "button" 
+                       type = "submit" 
+                       name = "btnadd" 
+                       value = "{btn}" 
+                       style="height: 30px; 
+                       width: 80px;
+                       cursor: pointer;
+                       margin-top: 10px"/>
             </p>
-            <br/>
-            <p>                      
+            <br>
+            <!--<p>                      
                 <b>Danh sách sản phẩm liên quan</b>
             <div style="float:left;
                  width:auto;
@@ -355,18 +365,7 @@
                 <ul id="product_list_accept">
                 </ul>
             </div>
-            </p>
-            <br/>
-            <p style="clear:both">                      
-                <input class = "button" 
-                       type = "submit" 
-                       name = "btnadd" 
-                       value = "{btn}" 
-                       style="height: 30px; 
-                       width: 80px;
-                       cursor: pointer;
-                       margin-top: 10px"/>
-            </p>
+            </p>            
             <br/>        
             <input type = "text" id = "current_day" class = "current_day" value ="{current_day}" hidden="true">
             <input type = "text" id = "current_publisher" class = "current_publisher" value ="{current_publisher}" hidden="true">
@@ -406,7 +405,7 @@
                  clear:both">
                 <ul id="product_list">                    
                 </ul>
-            </div>
+            </div>-->
         </div>
     </form>
 </div>
