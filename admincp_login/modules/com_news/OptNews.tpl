@@ -255,8 +255,8 @@
             </p>
             <p>
                 <label>{news_detail}</label>
-                <br/>
-                <br/>
+                <br>
+                <br>
                 <script>
                     var oEdit1 = new InnovaEditor("oEdit1");                    
                         oEdit1.arrStyle = [["BODY", false, "", "font-family:Arial;font-size:12px;"]];
@@ -289,12 +289,12 @@
                        value ='{txtauthor}'
                        id = 'txtauthor'/>
             </p>
-            <p>
+            <!--<p>
                 <b>{linkReference}</b>
                 <br/>
                 <br/>
                 {scipt_editor}
-            </p>        
+            </p>-->        
             <p style="margin-top:10px">
                 <b>Vùng dành cho SEO trong trang chi tiết bài viết</b></br></br>			
                 <b style="margin-top:10px">Title Page</b>
