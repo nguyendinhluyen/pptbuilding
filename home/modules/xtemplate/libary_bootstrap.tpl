@@ -74,7 +74,7 @@
                                  style="padding-left:0px">
                                 <h3 style="text-align:justify;
                                         font-family: 'Open Sans', Arial, sans-serif;
-                                        font-size:15px;
+                                        font-size:16px;
                                         line-height: 25px;
                                         margin-top:15px;">
                                     {news_short}</h3>
