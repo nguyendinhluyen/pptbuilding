@@ -28,6 +28,16 @@
         <script type="text/javascript" src="{linkS}eleganter/js/jquery-1.8.3.min.js"></script>
         <script type="text/javascript" src="{linkS}eleganter/js/jquery-ui.min.js"></script>
         <!--End Eleganter layout-->
+        <!--Google Analyze-->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112983627-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'UA-112983627-1');
+        </script>
+        <!--End Google Analyze-->
     </head>
     <body class="size-1140">
         <!--Header-->

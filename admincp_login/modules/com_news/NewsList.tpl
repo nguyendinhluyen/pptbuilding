@@ -154,12 +154,12 @@
            value = "Thêm tin" {status}
            onclick="window.location = './?show=OptNews_news&opt={opt}&p={p}&order={oderby}'">
 
-    <input style="width:80px; height: 25px"
+    <!--<input style="width:80px; height: 25px"
            class = "button"
            type = "submit"
            name = "btnStatus"
            value = "Ẩn/hiển thị"
-           onclick = "return chkselected();">
+           onclick = "return chkselected();">-->
 
     <input style="width:125px; height: 25px;{display_publish}}"
            class = "button"
